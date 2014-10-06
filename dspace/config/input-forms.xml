@@ -262,10 +262,6 @@ it, please enter the types and the actual numbers or codes below.</hint>
 
    <value-pairs value-pairs-name="common_types" dc-term="type">
      <pair>
-       <displayed-value>Animation</displayed-value>
-       <stored-value>Animation</stored-value>
-     </pair>
-     <pair>
        <displayed-value>Article</displayed-value>
        <stored-value>Article</stored-value>
      </pair>
