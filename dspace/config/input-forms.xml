@@ -196,18 +196,42 @@
          <hint>Selecione o(s) formatos do(s) arquivo(s), e precione a tecla "ctrl" para agregar mais um formato</hint>
          <required></required>
        </field>
+	   
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>identifier</dc-element>
+         <dc-qualifier>source</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Link fonte</label>
+         <input-type>onebox</input-type>
+         <hint>Entre com um link fonte para acesso ao documento.</hint>
+         <required></required>
+       </field>
 
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>identifier</dc-element>
-         <dc-qualifier></dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Identificadores</label>
-         <input-type value-pairs-name="common_identifiers">qualdrop_value</input-type>
-         <hint>Entre com o(s) identificador(es) do documento.</hint>
+         <dc-qualifier>issn</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>ISSN</label>
+		 <type-bind>Anais de evento</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Entre com o ISSN.</hint>
          <required></required>
        </field>
-
+	   
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>identifier</dc-element>
+         <dc-qualifier>isbn</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>ISBN</label>
+		 <type-bind>Anais de evento, Cartilha, Folhetos, Guia e Manual, Livro, Plano Nacional</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Entre com o ISBN.</hint>
+         <required></required>
+       </field>
+	   
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>language</dc-element>
