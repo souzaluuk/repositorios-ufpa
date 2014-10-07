@@ -173,9 +173,9 @@
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
          <dc-qualifier>tableofcontents</dc-qualifier>
-		 <type-bind>Anais de evento, Ata de reunião, Cartilha, Discurso, Livro, Plano Nacional, Recomendação, Relatório, Texto-base</type-bind>
          <repeatable>false</repeatable>
          <label>Sumário</label>
+		 <type-bind>Anais de evento, Ata de reunião, Cartilha, Discurso, Livro, Plano Nacional, Recomendação, Relatório, Texto-base</type-bind>
          <input-type>textarea</input-type>
          <hint>Entre com o sumário.</hint>
          <required></required>
