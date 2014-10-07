@@ -57,7 +57,7 @@
          <label>Palavra(s)-chave</label>
          <input-type>twobox</input-type>
          <hint>Entre com a(s)s palavra(s)-chave. </hint>
-         <required></required>
+         <required>Este campo é obrigatório.</required>
        </field>
 	   
 	   <field>
@@ -70,18 +70,7 @@
          <hint>Entre com a data de publicação</hint>
          <required>Campo obrigatório, informe ao menos o ano.</required>
        </field>
-	   
-	   <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>submitted</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Data de submissão</label>
-         <input-type>date</input-type>
-         <hint>Entre com a data de submissão</hint>
-         <required>Campo obrigatório, informe ao menos o ano.</required>
-       </field>
-	 
+	   	 
 	</page> 
 	
 	<page number="2">
@@ -200,11 +189,11 @@
 	   <field>
          <dc-schema>dc</dc-schema>
          <dc-element>format</dc-element>
-         <dc-qualifier>extent</dc-qualifier>
+         <dc-qualifier>mimetype</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Formato(s) do arquivo(s)</label>
-         <input-type>onebox</input-type>
-         <hint>Entre com o(s) formatos do(s) arquivo(s).</hint>
+         <label>Formato(s) do(s) arquivo(s)</label>
+         <input-type value-pairs-name="common_formats">dropdown</input-type>
+         <hint>Selecione o(s) formatos do(s) arquivo(s), e precione a tecla "ctrl" para agregar mais um formato</hint>
          <required></required>
        </field>
 
@@ -227,18 +216,18 @@
          <label>Idioma</label>
          <input-type value-pairs-name="common_iso_languages">dropdown</input-type>
          <hint>Selecione o idioma do documento.</hint>
-         <required></required>
+         <required>Este campo é obrigatório.</required>
        </field>
 	 
 	   <field>
          <dc-schema>dc</dc-schema>
          <dc-element>relation</dc-element>
          <dc-qualifier></dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Relações</label>
+         <repeatable>false</repeatable>
+         <label>Relação</label>
 		 <type-bind>Anais de evento, Ata de reunião, Recomendação, Resolução e Deliberação, Texto-base</type-bind>
          <input-type>onebox</input-type>
-         <hint>Entre com o(s) link(s) relacionados com o documento.</hint>
+         <hint>Entre com a descrição (título) de um outro documento relacionado a este.</hint>
          <required></required>
        </field>
 	 
@@ -258,11 +247,11 @@
          <dc-schema>dc</dc-schema>
          <dc-element>relation</dc-element>
          <dc-qualifier>replaces</dc-qualifier>
-         <repeatable>true</repeatable>
+         <repeatable>false</repeatable>
          <label>Este recurso substitui</label>
 		 <type-bind>Ato normativo</type-bind>
          <input-type>onebox</input-type>
-         <hint>Entre com o(s) link(s) do(s) documento(s) que este recurso substitui.</hint>
+         <hint>Entre com o link do documento que este recurso substitui.</hint>
          <required></required>
        </field>
 	   
@@ -270,7 +259,7 @@
          <dc-schema>dc</dc-schema>
          <dc-element>relation</dc-element>
          <dc-qualifier>replacedby</dc-qualifier>
-         <repeatable>true</repeatable>
+         <repeatable>false</repeatable>
          <label>Foi substituído por</label>
 		 <type-bind>Ato normativo</type-bind>
 		 <input-type>onebox</input-type>
@@ -308,10 +297,10 @@
          <dc-element>rights</dc-element>
          <dc-qualifier>holder</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Diretos de licença</label>
+         <label>Detentor(es) dos direitos da licença</label>
 		 <type-bind>Anais de evento, Artigo de periódico, Ata de reunião, Cartilha, Discurso, Exposição de Motivos, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Recomendação, Relatório, Resolução e Deliberação, Texto-base, Trabalho acadêmico, Trabalho em evento, Vídeo</type-bind>
          <input-type>onebox</input-type>
-         <hint>Entre com os direitos de licença.</hint>
+         <hint>Entre com o(s) detentor(es) dos direitos da licença.</hint>
          <required></required>
        </field>
 	   
@@ -322,8 +311,8 @@
          <repeatable>false</repeatable>
          <label>Licença atribuída</label>
 		 <type-bind>Anais de evento, Artigo de periódico, Ata de reunião, Cartilha, Discurso, Exposição de Motivos, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Recomendação, Relatório, Resolução e Deliberação, Texto-base, Trabalho acadêmico, Trabalho em evento, Vídeo</type-bind>
-         <input-type>onebox</input-type>
-         <hint>Entre com a licença atribuída.</hint>
+         <input-type value-pairs-name="common_licences">dropdown</input-type>
+         <hint>Selecione a licença atribuída.</hint>
          <required></required>
        </field>
 	   
@@ -455,7 +444,37 @@
        <stored-value>other</stored-value>
      </pair>
    </value-pairs>
+   
+   <value-pairs value-pairs-name="common_formats" dc-term="format">
+    <pair>
+       <displayed-value>PDF</displayed-value>
+       <stored-value>pdf</stored-value>
+    </pair>
+	<pair>
+       <displayed-value>DOC</displayed-value>
+       <stored-value>doc</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>JPEG</displayed-value>
+       <stored-value>jpeg</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>AVI</displayed-value>
+       <stored-value>avi</stored-value>
+     </pair>
+   </value-pairs>
 
+   <value-pairs value-pairs-name="common_licences" dc-term="licence">
+    <pair>
+       <displayed-value>Acesso Aberto</displayed-value>
+       <stored-value>Acesso Aberto</stored-value>
+    </pair>
+	<pair>
+       <displayed-value>Acesso Restrito</displayed-value>
+       <stored-value>Acesso Restrito</stored-value>
+     </pair>
+   </value-pairs>   
+   
  </form-value-pairs>
 
 </input-forms>
