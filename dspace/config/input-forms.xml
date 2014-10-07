@@ -37,7 +37,52 @@
          <required>Este campo é obrigatório.</required>
        </field>
 	   
-	</page>
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier>vcps</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Vocabulário controlado</label>
+         <input-type>onebox</input-type>
+         <hint>Entre com o(s) termo(s) do Vocabulário Controlado</hint>
+         <required></required>
+         <vocabulary>srsc</vocabulary>
+       </field>
+
+	   	<field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>subject</dc-element>
+         <dc-qualifier>keyword</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Palavra(s)-chave</label>
+         <input-type>twobox</input-type>
+         <hint>Entre com a(s)s palavra(s)-chave. </hint>
+         <required></required>
+       </field>
+	   
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>issued</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Data de publiação</label>
+         <input-type>date</input-type>
+         <hint>Entre com a data de publicação</hint>
+         <required>Campo obrigatório, informe ao menos o ano.</required>
+       </field>
+	   
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>date</dc-element>
+         <dc-qualifier>submitted</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Data de submissão</label>
+         <input-type>date</input-type>
+         <hint>Entre com a data de submissão</hint>
+         <required>Campo obrigatório, informe ao menos o ano.</required>
+       </field>
+	 
+	</page> 
 	
 	<page number="2">
 
@@ -78,61 +123,88 @@
          <required></required>
        </field>
 	   
+	   	   
 	   <field>
          <dc-schema>dc</dc-schema>
-         <dc-element>subject</dc-element>
+         <dc-element>description</dc-element>
          <dc-qualifier></dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>Subject Keywords</label>
-         <input-type>twobox</input-type>
-         <hint>Enter appropriate subject keywords or phrases below. </hint>
-         <required></required>
-         <vocabulary>srsc</vocabulary>
-       </field>
-
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>date</dc-element>
-         <dc-qualifier>issued</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Date of Issue</label>
-         <input-type>date</input-type>
-         <hint>Please give the date of previous publication or public distribution
-                        below.  You can leave out the day and/or month if they aren't
-                        applicable.</hint>
-         <required>You must enter at least the year.</required>
+         <label>Descrição do recurso</label>
+         <input-type>textarea</input-type>
+         <hint>Entre com a descrição do recurso.</hint>
+         <required></required>
+       </field>
+	   
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>physical</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Descrição física</label>
+         <input-type>textarea</input-type>
+         <hint>Entre com a descrição física.</hint>
+         <required></required>
+       </field>
+	   
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>resumo</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Resumo</label>
+         <input-type>textarea</input-type>
+         <hint>Entre com o resumo.</hint>
+         <required></required>
+       </field>
+	   
+  	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>abstract</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Resumo(s) em língua estrangeira</label>
+		 <type-bind>Artigo de periódico, Discurso, Livro, Capítulo de livro, Plano Nacional, Relatório, Trabalho acadêmico, Trabalho em evento</type-bind>
+         <input-type>textarea</input-type>
+         <hint>Entre com o(s) resumo(s) em língua estrangeira.</hint>
+         <required></required>
+       </field>
+	   
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>description</dc-element>
+         <dc-qualifier>tableofcontents</dc-qualifier>
+		 <type-bind>Anais de evento, Ata de reunião, Cartilha, Discurso, Livro, Plano Nacional, Recomendação, Relatório, Texto-base</type-bind>
+         <repeatable>false</repeatable>
+         <label>Sumário</label>
+         <input-type>textarea</input-type>
+         <hint>Entre com o sumário.</hint>
+         <required></required>
        </field>
 
-       <field>
+	   <field>
          <dc-schema>dc</dc-schema>
          <dc-element>publisher</dc-element>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Publisher</label>
+         <label>Editor(a)</label>
+		 <type-bind>Anais de evento, Cartilha, Discurso, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Relatório, Texto-base, Vídeo</type-bind>
          <input-type>onebox</input-type>
-         <hint>Enter the name of the publisher of the previously issued instance of this item.</hint>
+         <hint>Entre com o(a) editor(a).</hint>
          <required></required>
-       </field>
-
-       <field>
+       </field>   
+	   
+	</page>
+	
+	<page number="3">
+	
+	   <field>
          <dc-schema>dc</dc-schema>
-         <dc-element>identifier</dc-element>
-         <dc-qualifier>citation</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Citation</label>
-         <input-type>onebox</input-type>
-         <hint>Enter the standard citation for the previously issued instance of this item.</hint>
-         <required></required>
-       </field>
-
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>relation</dc-element>
-         <dc-qualifier>ispartofseries</dc-qualifier>
+         <dc-element>format</dc-element>
+         <dc-qualifier>extent</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Series/Report No.</label>
-         <input-type>series</input-type>
-         <hint>Enter the series and number assigned to this item by your community.</hint>
+         <label>Formato(s) do arquivo(s)</label>
+         <input-type>onebox</input-type>
+         <hint>Entre com o(s) formatos do(s) arquivo(s).</hint>
          <required></required>
        </field>
 
@@ -140,12 +212,10 @@
          <dc-schema>dc</dc-schema>
          <dc-element>identifier</dc-element>
          <dc-qualifier></dc-qualifier>
-         <!-- An input-type of qualdrop_value MUST be marked as repeatable -->
          <repeatable>true</repeatable>
-         <label>Identifiers</label>
+         <label>Identificadores</label>
          <input-type value-pairs-name="common_identifiers">qualdrop_value</input-type>
-         <hint>If the item has any identification numbers or codes associated with
-it, please enter the types and the actual numbers or codes below.</hint>
+         <hint>Entre com o(s) identificador(es) do documento.</hint>
          <required></required>
        </field>
 
@@ -154,105 +224,128 @@ it, please enter the types and the actual numbers or codes below.</hint>
          <dc-element>language</dc-element>
          <dc-qualifier>iso</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Language</label>
+         <label>Idioma</label>
          <input-type value-pairs-name="common_iso_languages">dropdown</input-type>
-         <hint>Select the language of the main content of the item.  If the language does not appear in the list below, please select 'Other'.  If the content does not really have a language (for example, if it is a dataset or an image) please select 'N/A'.</hint>
+         <hint>Selecione o idioma do documento.</hint>
          <required></required>
        </field>
-     </page>
-
-     <page number="3">
-
-       <field>
+	 
+	   <field>
          <dc-schema>dc</dc-schema>
-         <dc-element>description</dc-element>
-         <dc-qualifier>abstract</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Abstract</label>
-         <input-type>textarea</input-type>
-         <hint>Enter the abstract of the item below. </hint>
-         <required></required>
-       </field>
-
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>description</dc-element>
-         <dc-qualifier>sponsorship</dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Sponsors</label>
-         <input-type>textarea</input-type>
-         <hint>Enter the names of any sponsors and/or funding codes in the box below. </hint>
-         <required></required>
-       </field>
-
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>description</dc-element>
+         <dc-element>relation</dc-element>
          <dc-qualifier></dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Description</label>
-         <input-type>textarea</input-type>
-         <hint>Enter any other description or comments in this box. </hint>
+         <repeatable>true</repeatable>
+         <label>Relações</label>
+		 <type-bind>Anais de evento, Ata de reunião, Recomendação, Resolução e Deliberação, Texto-base</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Entre com o(s) link(s) relacionados com o documento.</hint>
          <required></required>
        </field>
+	 
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>relation</dc-element>
+         <dc-qualifier>ispartof</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>É parte de</label>
+		 <type-bind>Artigo de periódico, Capítulo de livro</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Entre com o link de referência do qual o recurso faz parte.</hint>
+         <required></required>
+       </field>
+	   
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>relation</dc-element>
+         <dc-qualifier>replaces</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Este recurso substitui</label>
+		 <type-bind>Ato normativo</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Entre com o(s) link(s) do(s) documento(s) que este recurso substitui.</hint>
+         <required></required>
+       </field>
+	   
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>relation</dc-element>
+         <dc-qualifier>replacedby</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Foi substituído por</label>
+		 <type-bind>Ato normativo</type-bind>
+		 <input-type>onebox</input-type>
+         <hint>Entre com o link documento que substituiu este recurso.</hint>
+         <required></required>
+       </field>
+
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>coverage</dc-element>
+         <dc-qualifier>spatial</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Cobertura espacial</label>
+		 <type-bind>Plano Nacional, Relatório</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Entre com a cobertura espacial.</hint>
+         <required></required>
+       </field>
+
+	   
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>coverage</dc-element>
+         <dc-qualifier>temporal</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Cobertura temporal</label>
+		 <type-bind>Ata de reunião, Plano Nacional, Relatório</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Entre com a cobertura temporal.</hint>
+         <required></required>
+       </field>
+	   
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>rights</dc-element>
+         <dc-qualifier>holder</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Diretos de licença</label>
+		 <type-bind>Anais de evento, Artigo de periódico, Ata de reunião, Cartilha, Discurso, Exposição de Motivos, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Recomendação, Relatório, Resolução e Deliberação, Texto-base, Trabalho acadêmico, Trabalho em evento, Vídeo</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Entre com os direitos de licença.</hint>
+         <required></required>
+       </field>
+	   
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>rights</dc-element>
+         <dc-qualifier>licence</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Licença atribuída</label>
+		 <type-bind>Anais de evento, Artigo de periódico, Ata de reunião, Cartilha, Discurso, Exposição de Motivos, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Recomendação, Relatório, Resolução e Deliberação, Texto-base, Trabalho acadêmico, Trabalho em evento, Vídeo</type-bind>
+         <input-type>onebox</input-type>
+         <hint>Entre com a licença atribuída.</hint>
+         <required></required>
+       </field>
+	   
+	   
      </page>
    </form>
 
-   <form name="one">
-     <page number="1">
-       <field>
-         <dc-schema>dc</dc-schema>
-         <dc-element>contributor</dc-element>
-         <dc-qualifier>author</dc-qualifier>
-         <repeatable>true</repeatable>
-         <label>One: Authors</label>
-         <input-type>name</input-type>
-         <hint>Enter the names of the authors of this item below.</hint>
-         <required></required>
-       </field>
-      </page>
-    </form>
  </form-definitions>
-
-
- <!-- form-value-pairs populate dropdown and qualdrop-value lists.          -->
- <!-- The form-value-pairs element holds child elements named 'value-pairs' -->
- <!-- A 'value-pairs' element has a value-pairs-name and a dc-term          -->
- <!-- attribute. The dc-term attribute specifies which to which Dublin Core -->
- <!-- Term this set of value-pairs applies.                                 -->
- <!--     Current dc-terms are: identifier-pairs, type-pairs, and           -->
- <!--     language_iso-pairs. The name attribute matches a name             -->
- <!--     in the form-map, above.                                           -->
- <!-- A value-pair contains one 'pair' for each value displayed in the list -->
- <!-- Each pair contains a 'displayed-value' element and a 'stored-value'   -->
- <!-- element. A UI list displays the displayed-values, but the program     -->
- <!-- stores the associated stored-values in the database.                  -->
 
  <form-value-pairs>
    <value-pairs value-pairs-name="common_identifiers" dc-term="identifier">
-     <pair>
+    <pair>
+       <displayed-value>ISBN</displayed-value>
+       <stored-value>isbn</stored-value>
+    </pair>
+	<pair>
        <displayed-value>ISSN</displayed-value>
        <stored-value>issn</stored-value>
      </pair>
      <pair>
-       <displayed-value>Other</displayed-value>
-       <stored-value>other</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>ISMN</displayed-value>
-       <stored-value>ismn</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Gov't Doc #</displayed-value>
-       <stored-value>govdoc</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>URI</displayed-value>
-       <stored-value>uri</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>ISBN</displayed-value>
-       <stored-value>isbn</stored-value>
+       <displayed-value>Fonte</displayed-value>
+       <stored-value>source</stored-value>
      </pair>
    </value-pairs>
 
@@ -302,10 +395,6 @@ it, please enter the types and the actual numbers or codes below.</hint>
        <stored-value>Plano Nacional</stored-value>
      </pair>
      <pair>
-       <displayed-value>Presentation</displayed-value>
-       <stored-value>Presentation</stored-value>
-     </pair>
-     <pair>
        <displayed-value>Recomendação</displayed-value>
        <stored-value>Recomendação</stored-value>
      </pair>
@@ -335,52 +424,34 @@ it, please enter the types and the actual numbers or codes below.</hint>
      </pair>
    </value-pairs>
 
-   <!-- default language order: (from dspace 1.2.1)
-        "en_US", "en", "es", "de", "fr", "it", "ja", "zh", "other", ""
-     -->
+  
    <value-pairs value-pairs-name="common_iso_languages" dc-term="language_iso">
      <pair>
-       <displayed-value>N/A</displayed-value>
-       <stored-value></stored-value>
+       <displayed-value>Português</displayed-value>
+       <stored-value>por</stored-value>
      </pair>
      <pair>
-       <displayed-value>English (United States)</displayed-value>
-       <stored-value>en_US</stored-value>
+       <displayed-value>Inglês</displayed-value>
+       <stored-value>eng</stored-value>
       </pair>
      <pair>
-       <displayed-value>English</displayed-value>
-       <stored-value>en</stored-value>
+       <displayed-value>Espanhol</displayed-value>
+       <stored-value>esp</stored-value>
      </pair>
      <pair>
-       <displayed-value>Spanish</displayed-value>
-       <stored-value>es</stored-value>
+       <displayed-value>Alemão</displayed-value>
+       <stored-value>deu</stored-value>
      </pair>
      <pair>
-       <displayed-value>German</displayed-value>
-       <stored-value>de</stored-value>
+       <displayed-value>Francês</displayed-value>
+       <stored-value>fra</stored-value>
      </pair>
      <pair>
-       <displayed-value>French</displayed-value>
-       <stored-value>fr</stored-value>
+       <displayed-value>Italiano</displayed-value>
+       <stored-value>ita</stored-value>
      </pair>
      <pair>
-       <displayed-value>Italian</displayed-value>
-       <stored-value>it</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Japanese</displayed-value>
-       <stored-value>ja</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Chinese</displayed-value>
-       <stored-value>zh</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Turkish</displayed-value>
-       <stored-value>tr</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>(Other)</displayed-value>
+       <displayed-value>Outro</displayed-value>
        <stored-value>other</stored-value>
      </pair>
    </value-pairs>
