@@ -571,6 +571,10 @@
        <stored-value>bmp</stored-value>
      </pair>
 	 <pair>
+       <displayed-value>PNG (Imagem)</displayed-value>
+       <stored-value>png</stored-value>
+     </pair>
+	 <pair>
        <displayed-value>TIF (Vídeo) </displayed-value>
        <stored-value>tif</stored-value>
      </pair>
