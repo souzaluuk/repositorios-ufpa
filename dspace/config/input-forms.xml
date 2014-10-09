@@ -48,6 +48,17 @@
          <required></required>
          <vocabulary>srsc</vocabulary>
        </field>
+	   
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>realation</dc-element>
+         <dc-qualifier>paticipabr</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Relação Participa BR</label>
+         <input-type>onebox</input-type>
+         <hint>Entre com a relação Paticipa BR</hint>
+         <required></required>
+       </field>
 
 	   	<field>
          <dc-schema>dc</dc-schema>
@@ -81,7 +92,7 @@
          <dc-qualifier>alternative</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Título alternativo</label>
-		 <type-bind>Anais de evento, Artigo de periódico, Cartilha, Discurso, Folhetos, Livro, Capítulo de livro, Plano Nacional, Relatório, Trabalho em evento</type-bind>
+		 <type-bind>Anais de evento, Artigo de periódico, Cartilha, Discurso, Folhetos, Livro, Capítulo de livro, Plano Nacional, Relatório, Trabalho em evento, Foto</type-bind>
          <input-type>onebox</input-type>
          <hint>Entre com o título alternativo.</hint>
          <required></required>
@@ -93,12 +104,49 @@
          <dc-element>contributor</dc-element>
          <dc-qualifier>author</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Autor</label>
-		 <type-bind>Anais de evento, Artigo de periódico, Ata de reunião, Cartilha, Exposição de Motivos, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Recomendação, Relatório, Resolução de Deliberação, Texto-base, Trabalho acadêmico, Trabalho em evento, Vídeo</type-bind>
+         <label>Autor(es)</label>
+		 <type-bind>Anais de evento, Artigo de periódico, Ata de reunião, Cartilha, Exposição de Motivos, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Recomendação, Relatório, Resolução de Deliberação, Texto-base, Trabalho acadêmico, Trabalho em evento</type-bind>
          <input-type>name</input-type>
-         <hint>Entre com o autor.</hint>
-         <required></required>
+         <hint>Entre com o(s) nome(s) autor(es).</hint>
+         <required>Este campo é obrigatório.</required>
        </field>
+	   
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>diretor</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Diretor</label>
+		 <type-bind>Vídeo</type-bind>
+         <input-type>name</input-type>
+         <hint>Entre com o nome do diretor.</hint>
+         <required>Este campo é obrigatório.</required>
+       </field>
+	   
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>contributor</dc-element>
+         <dc-qualifier>diretor</dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Fotógrafo</label>
+		 <type-bind>Foto</type-bind>
+         <input-type>name</input-type>
+         <hint>Entre com o nome do fotógrafo.</hint>
+         <required>Este campo é obrigatório.</required>
+       </field>
+	   
+	   <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>publisher</dc-element>
+         <dc-qualifier>produtor</dc-qualifier>
+         <repeatable>true</repeatable>
+         <label>Produtor(es)</label>
+		 <type-bind>Foto</type-bind>
+         <input-type>name</input-type>
+         <hint>Entre com o nome do(s) produtor(es).</hint>
+         <required>Este campo é obrigatório.</required>
+       </field>
+	   
 	   
 	   <field>
          <dc-schema>dc</dc-schema>
@@ -176,7 +224,7 @@
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Editor(a)</label>
-		 <type-bind>Anais de evento, Cartilha, Discurso, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Relatório, Texto-base, Vídeo</type-bind>
+		 <type-bind>Anais de evento, Cartilha, Discurso, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Relatório, Texto-base, Vídeo, Foto</type-bind>
          <input-type>onebox</input-type>
          <hint>Entre com o(a) editor(a).</hint>
          <required></required>
@@ -435,6 +483,10 @@
        <displayed-value>Vídeo</displayed-value>
        <stored-value>Vídeo</stored-value>
      </pair>
+	 <pair>
+       <displayed-value>Foto</displayed-value>
+       <stored-value>Foto</stored-value>
+     </pair>
    </value-pairs>
 
   
@@ -478,13 +530,69 @@
        <displayed-value>DOC</displayed-value>
        <stored-value>doc</stored-value>
      </pair>
+	 <pair>
+       <displayed-value>ODT</displayed-value>
+       <stored-value>odt</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>DOCX</displayed-value>
+       <stored-value>docx</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>XLS</displayed-value>
+       <stored-value>xls</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>XLSX</displayed-value>
+       <stored-value>xlsx</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>ODS</displayed-value>
+       <stored-value>ods</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>PPT</displayed-value>
+       <stored-value>ppt</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>ODP</displayed-value>
+       <stored-value>odp</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>PPTX</displayed-value>
+       <stored-value>pptx</stored-value>
+     </pair>
      <pair>
        <displayed-value>JPEG</displayed-value>
        <stored-value>jpeg</stored-value>
      </pair>
 	 <pair>
+       <displayed-value>BMP</displayed-value>
+       <stored-value>bmp</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>TIF</displayed-value>
+       <stored-value>tif</stored-value>
+     </pair>
+	 <pair>
        <displayed-value>AVI</displayed-value>
        <stored-value>avi</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>MPEG</displayed-value>
+       <stored-value>mpeg</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>VOB</displayed-value>
+       <stored-value>vob</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>MP4</displayed-value>
+       <stored-value>mp4</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>MKV</displayed-value>
+       <stored-value>mkv</stored-value>
      </pair>
    </value-pairs>
 
