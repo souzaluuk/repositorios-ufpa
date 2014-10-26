@@ -121,7 +121,7 @@
          <dc-qualifier>diretor</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Diretor</label>
-		 <!-- <type-bind>Vídeo</type-bind> -->
+	 <type-bind>Vídeo</type-bind> 
          <input-type>name</input-type>
          <hint>Entre com o nome do diretor.</hint>
          <required>Este campo é obrigatório.</required>
@@ -133,7 +133,7 @@
          <dc-qualifier>diretor</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Fotógrafo</label>
-		 <!-- <type-bind>Foto</type-bind> -->
+	 <type-bind>Foto</type-bind> 
          <input-type>name</input-type>
          <hint>Entre com o nome do fotógrafo.</hint>
          <required>Este campo é obrigatório.</required>
@@ -145,7 +145,7 @@
          <dc-qualifier>produtor</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Produtor(es)</label>
-		 <!-- <type-bind>Foto</type-bind> -->
+	 <type-bind>Foto</type-bind>
          <input-type>name</input-type>
          <hint>Entre com o nome do(s) produtor(es).</hint>
          <required>Este campo é obrigatório.</required>
@@ -230,7 +230,7 @@
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Editor(a)</label>
-		 <!-- <type-bind>Anais de evento, Cartilha, Discurso, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Relatório, Texto-base, Vídeo, Foto</type-bind> -->
+	 <type-bind>Anais de evento, Apostila, Discurso, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Relatório, Texto-base</type-bind> -->
          <input-type>onebox</input-type>
          <hint>Entre com o(a) editor(a).</hint>
          <required></required>
