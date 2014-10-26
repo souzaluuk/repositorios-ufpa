@@ -268,7 +268,7 @@
          <dc-qualifier>issn</dc-qualifier>
          <repeatable>false</repeatable>
          <label>ISSN</label>
-		 <!-- <type-bind>Anais de evento</type-bind> -->
+	 <type-bind>Anais de evento</type-bind>
          <input-type>onebox</input-type>
          <hint>Entre com o ISSN.</hint>
          <required></required>
@@ -280,7 +280,7 @@
          <dc-qualifier>isbn</dc-qualifier>
          <repeatable>false</repeatable>
          <label>ISBN</label>
-		 <!-- <type-bind>Anais de evento, Cartilha, Folhetos, Guia e Manual, Livro, Plano Nacional</type-bind> -->
+	 <type-bind>Anais de evento, Cartilha, Apostila, Folhetos, Guia e Manual, Livro, Plano Nacional</type-bind> 
          <input-type>onebox</input-type>
          <hint>Entre com o ISBN.</hint>
          <required></required>
