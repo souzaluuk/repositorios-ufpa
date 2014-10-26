@@ -6,27 +6,13 @@
 #
 # See org.dspace.core.Email for information on the format of this file.
 #
-Subject: DSpace - The item export you requested was not completed.
-The item export you requested was not completed, due to the following reason:
- {0}
+Assunto: Biblioteca Digital de ParticipaÃ§Ã£o Social- SolicitaÃ§Ã£o de exportaÃ§Ã£o de item nÃ£o foi concluÃ­da. 
+A exportaÃ§Ã£o item solicitado nÃ£o foi concluÃ­da, devido ao seguinte motivo: 
 
-For more information you may contact your system administrator:
- {1}
+{0} 
 
+Para mais informaÃ§Ãµes, contate o administrador do sistema: 
 
+{1} 
 
-The DSpace Team
-
-
-
-E-mail enviado aos usuários da Biblioteca Digital de Participação Social sobre exportação de um item ou coleção.## Os parâmetros: {0} o erro de exportação# {1} a URL para a página de comentários#        ## Veja org.dspace.core.Email para obter informações sobre o formato deste arquivo. 
-#Assunto: Biblioteca Digital de Participação Social- Solicitação de exportação de item não foi concluída. 
-A exportação item solicitado não foi concluída, devido ao seguinte motivo: 
-  {0} 
-
-Para mais informações, contate o administrador do sistema: 
-  {1} 
-
-
-
-A Equipe do DSpace
+A Equipe da Biblioteca Digital de ParticipaÃ§Ã£o Social
