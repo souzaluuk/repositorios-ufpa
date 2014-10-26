@@ -6,48 +6,19 @@
 # {3}  Description of task
 # {4}  link to 'my DSpace' page 
 #
-Subject: DSpace: You have a new task
-
-A new item has been submitted:
-
-Title:        {0}
-Collection:   {1}
-Submitted by: {2}
-
-{3}
-
-To claim this task, please visit your "My DSpace"
-page:  {4}
-
-Many thanks!
-
-DSpace
-
-
-# Fluxo de trabalho mensagem de e-mail tarefa 
-# 
-# {0} Título da apresentação 
-# {1} Nome da coleção 
-# {2} o nome do apresentador 
-# {3} Descrição da tarefa 
-# {4} link para a página "Meu espaço" 
-# 
-Assunto: DSpace: Você tem uma nova tarefa 
+Assunto: VocÃª tem uma nova tarefa 
 
 Um novo artigo foi submetido: 
 
-Título: {0} 
-Coleção: {1} 
+TÃ­tulo: {0} 
+ColeÃ§Ã£o: {1} 
 Enviado por: {2} 
 
 {3} 
 
-Para accionar esta tarefa, por favor visite o seu "Meu espaço" 
-página: {4} 
+Para acessar esta tarefa, por favor visite o seu "Meu espaÃ§o" 
+pÃ¡gina: {4} 
 
-Muito obrigado! 
+Muito obrigada! 
 
-DSpace
-Please help Google Translate improve quality for your language here.
-Google Tradutor para empresas:Google Toolkit de tradução para appsTradutor de sitesGlobal Market Finder
-Desativar tradução instantâneaSob
+A Equipe da Biblioteca Digital de ParticipaÃ§Ã£o Social
