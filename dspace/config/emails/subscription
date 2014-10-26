@@ -4,16 +4,8 @@
 # Parameters: {0} is the details of the new collections and items
 # See org.dspace.core.Email for information on the format of this file.
 #
-Subject: DSpace Subscription
-New items are available in the collections you have subscribed to:
-
-{0}
-
-DSpace
-
-
-# E-mail enviado aos usuários Biblioteca Digital de Participação Social DSpace quando novos itens aparecem em coleções para as quais se subscreveram# # Parâmetros: {0} detalhes das novas coleções e itens# Veja org.dspace.core.Email para obter informação sobre o formato do arquivo# Biblioteca Digital de Participação SocialNovos itens estão disponíveis nas coleções que subscreveu: 
+Assunto: Novos itens estÃ£o disponÃ­veis nas coleÃ§Ãµes que assinou: 
 
 {0} 
 
-Equipe da Biblioteca Digital de Participação Social
+A Equipe da Biblioteca Digital de ParticipaÃ§Ã£o Social
