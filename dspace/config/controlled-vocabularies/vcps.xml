@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<node id="vocab_part" label="Vocabulário Controlado para Biblioteca de Participação Social">
+<node id="vocab_part" label="VCPS">
   <isComposedBy>
     <node id="vocabIPEA" label="Vocabulário repassado pelo IPEA">
       <isComposedBy>

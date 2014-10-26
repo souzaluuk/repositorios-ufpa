@@ -80,7 +80,7 @@
          <dc-element>date</dc-element>
          <dc-qualifier>issued</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Data de publiação</label>
+         <label>Data de publicação</label>
          <input-type>date</input-type>
          <hint>Entre com a data de publicação</hint>
          <required>Campo obrigatório, informe ao menos o ano.</required>
@@ -175,7 +175,8 @@
          <hint>Entre com a descrição do recurso.</hint>
          <required></required>
        </field>
-	   
+
+       <!--
 	   <field>
          <dc-schema>dc</dc-schema>
          <dc-element>description</dc-element>
@@ -186,6 +187,7 @@
          <hint>Entre com a descrição física.</hint>
          <required></required>
        </field>
+       -->
 	   
 	   <field>
          <dc-schema>dc</dc-schema>
@@ -295,25 +297,28 @@
          <required>Este campo é obrigatório.</required>
        </field>
 	 
+       
 	   <field>
          <dc-schema>dc</dc-schema>
          <dc-element>relation</dc-element>
          <dc-qualifier></dc-qualifier>
-         <repeatable>false</repeatable>
-         <label>Relação</label>
-		 <!-- <type-bind>Anais de evento, Ata de reunião, Recomendação, Resolução e Deliberação, Texto-base</type-bind> -->
+         <repeatable>true</repeatable>
+         <label>Relação(ões)</label>
+	 <!-- <type-bind>Anais de evento, Ata de reunião, Recomendação, Resolução e Deliberação, Texto-base</type-bind> -->
          <input-type>onebox</input-type>
-         <hint>Entre com a descrição (título) de um outro documento relacionado a este.</hint>
+         <hint>Entre com o(s) link(s) relacionado(s) a este documento.</hint>
          <required></required>
        </field>
 	 
-	   <field>
+	<!--   
+      
+       <field>
          <dc-schema>dc</dc-schema>
          <dc-element>relation</dc-element>
          <dc-qualifier>ispartof</dc-qualifier>
          <repeatable>false</repeatable>
          <label>É parte de</label>
-		 <!-- <type-bind>Artigo de periódico, Capítulo de livro</type-bind> -->
+	 <type-bind>Artigo de periódico, Capítulo de livro</type-bind>
          <input-type>onebox</input-type>
          <hint>Entre com o link de referência do qual o recurso faz parte.</hint>
          <required></required>
@@ -325,7 +330,7 @@
          <dc-qualifier>replaces</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Este recurso substitui</label>
-		 <!-- <type-bind>Ato normativo</type-bind> -->
+	 <type-bind>Ato normativo</type-bind> 
          <input-type>onebox</input-type>
          <hint>Entre com o link do documento que este recurso substitui.</hint>
          <required></required>
@@ -337,11 +342,12 @@
          <dc-qualifier>isreplacedby</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Foi substituído por</label>
-		 <!-- <type-bind>Ato normativo</type-bind> -->
-		 <input-type>onebox</input-type>
+	 <type-bind>Ato normativo</type-bind>
+	<input-type>onebox</input-type>
          <hint>Entre com o link documento que substituiu este recurso.</hint>
          <required></required>
        </field>
+       -->       
 
 	   <field>
          <dc-schema>dc</dc-schema>
