@@ -589,70 +589,70 @@
    <dc-type>
 	<schema>dc</schema>
     <element>subject</element>
-    <qualifier>vcps<qualifier>
+    <qualifier>vcps</qualifier>
     <scope_note></scope_note>
   </dc-type>
   
    <dc-type>
 	<schema>dc</schema>
     <element>subject</element>
-    <qualifier>keyword<qualifier>
+    <qualifier>keyword</qualifier>
     <scope_note></scope_note>
   </dc-type>
   
    <dc-type>
 	<schema>dc</schema>
     <element>identifier</element>
-    <qualifier>source<qualifier>
+    <qualifier>source</qualifier>
     <scope_note></scope_note>
   </dc-type>
     
    <dc-type>
 	<schema>dc</schema>
     <element>contributor</element>
-    <qualifier>diretor<qualifier>
+    <qualifier>diretor</qualifier>
     <scope_note></scope_note>
   </dc-type>
   
   <dc-type>
 	<schema>dc</schema>
     <element>contributor</element>
-    <qualifier>fotografo<qualifier>
+    <qualifier>fotografo</qualifier>
     <scope_note></scope_note>
   </dc-type>
   
   <dc-type>
 	<schema>dc</schema>
     <element>publisher</element>
-    <qualifier>produtor<qualifier>
+    <qualifier>produtor</qualifier>
     <scope_note></scope_note>
   </dc-type>
   
   <dc-type>
 	<schema>dc</schema>
     <element>relation</element>
-    <qualifier>participabr<qualifier>
+    <qualifier>participabr</qualifier>
     <scope_note></scope_note>
   </dc-type>
   
   <dc-type>
 	<schema>dc</schema>
     <element>description</element>
-    <qualifier>physical<qualifier>
+    <qualifier>physical</qualifier>
     <scope_note></scope_note>
   </dc-type>
   
   <dc-type>
 	<schema>dc</schema>
     <element>description</element>
-    <qualifier>resumo<qualifier>
+    <qualifier>resumo</qualifier>
     <scope_note></scope_note>
   </dc-type>
   
   <dc-type>
 	<schema>dc</schema>
     <element>rights</element>
-    <qualifier>licence<qualifier>
+    <qualifier>licence</qualifier>
     <scope_note></scope_note>
   </dc-type>
 
