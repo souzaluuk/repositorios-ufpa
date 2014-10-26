@@ -7,32 +7,14 @@
 # {4}  Task result
 # {5}  Workflow action taken
 #
-Subject: DSpace: Curation Task Report
+Assunto: Biblioteca Digital de ParticipaÃ§Ã£o Social:  RelatÃ³rio da tarefa de curadoria
 
-Title:         {0}
-Collection:    {1}
-Submitted by:  {2}
-
-Curation task {3} has been performed
-with the following result:
-
-{4}
-
-Action taken on the submission: {5}
-
-DSpace
-
-
-
-# E-mail notificação de tarefa de fluxo de trabalho de curadoria## {0} Título da submissão# {1} Nome da coleção# {2} Nome do depositante# {3} Nome da tarefa operacional# {4} Resultado da tarefa# {5} Fluxo das ações realizadas#
-Assunto: Biblioteca Digital de Participação Social:  Relatório da tarefa de curadoria
-
-Título: {0} 
-Coleção: {1} 
+TÃ­tulo: {0} 
+ColeÃ§Ã£o: {1} 
 Enviado por: {2} 
 
 A tarefa de curadoria {3} foi realizada com os seguintes resultados:{4} 
 
-Medidas tomadas sobre a submissão: {5} 
+Medidas tomadas sobre a submissÃ£o: {5} 
 
-Equipe da Biblioteca Digital de Participação Social
+Equipe da Biblioteca Digital de ParticipaÃ§Ã£o Social
