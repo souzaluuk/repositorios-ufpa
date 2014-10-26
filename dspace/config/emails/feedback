@@ -10,26 +10,14 @@
 #
 # See org.dspace.core.Email for information on the format of this file.
 #
-Subject: Feedback Form Information
+Assunto: FormulÃ¡rio InformaÃ§Ãµes de Feedback 
 
-Comments:
-
-{6}
-
-
-Date: {0}
+ComentÃ¡rios: {6} 
+Data: {0}
 Email: {1}
-Logged In As: {2}
-Referring Page: {3}
-User Agent: {4}
-Session: {5}
+Identificado como: {2}
+PÃ¡gina: {3} 
+UsuÃ¡rio: {4} 
+SessÃ£o: {5}
 
-
-
-
-
-# E-mail enviado com as informações preenchidas em um formulário de feedback. ## Os parâmetros: {0} data atual# {1} endereço de email que o usuário forneceu# {2} logado como# {3} página que o usuário estava quando eles selecionaram um feedback# {4} Usuário-Agente cabeçalho HTTP# {5} ID da sessão# {6} Os comentários do usuário## Veja org.dspace.core.Email para obter informações sobre o formato deste arquivo. 
-#Assunto: Formulário Informações de Feedback 
-
-Comentários: {6} Data: {0}Email: {1}Identificado como: {2}Página: {3} 
-Usuário: {4} Sessão: {5}
+A Equipe da Biblioteca Digital de ParticipaÃ§Ã£o Social
