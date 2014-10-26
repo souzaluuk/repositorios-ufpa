@@ -17,3 +17,16 @@ For more information you may contact your system administrator:
 
 The DSpace Team
 
+
+
+E-mail enviado aos usuários da Biblioteca Digital de Participação Social sobre exportação de um item ou coleção.## Os parâmetros: {0} o erro de exportação# {1} a URL para a página de comentários#        ## Veja org.dspace.core.Email para obter informações sobre o formato deste arquivo. 
+#Assunto: Biblioteca Digital de Participação Social- Solicitação de exportação de item não foi concluída. 
+A exportação item solicitado não foi concluída, devido ao seguinte motivo: 
+  {0} 
+
+Para mais informações, contate o administrador do sistema: 
+  {1} 
+
+
+
+A Equipe do DSpace

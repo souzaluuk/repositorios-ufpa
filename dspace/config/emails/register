@@ -14,3 +14,14 @@ If you need assistance with your account, please email
 dspace-help@myu.edu or call us at xxx-555-xxxx.
 
 The DSpace Team
+
+
+# E-mail enviado aos usuários da Biblioteca Digital de Participação Social quando se inscrever para uma conta## Os parâmetros: {0} é expandido para um de registro especial de URL## Veja org.dspace.core.Email para obter informações sobre o formato deste arquivo. 
+#Assunto: Inscrição Biblioteca Digital de Participação Social Para concluir o registro de uma conta na Biblioteca Digital de Participação Social, por favor clique no link abaixo: 
+
+{0} 
+
+Se precisar de ajuda com a sua conta, por favor envie um e-mail para bibliotecaparticipa@presidencia.gov.br
+
+
+Equipe da Biblioteca Digital de Participação Social

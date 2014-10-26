@@ -10,3 +10,10 @@ New items are available in the collections you have subscribed to:
 {0}
 
 DSpace
+
+
+# E-mail enviado aos usuários Biblioteca Digital de Participação Social DSpace quando novos itens aparecem em coleções para as quais se subscreveram# # Parâmetros: {0} detalhes das novas coleções e itens# Veja org.dspace.core.Email para obter informação sobre o formato do arquivo# Biblioteca Digital de Participação SocialNovos itens estão disponíveis nas coleções que subscreveu: 
+
+{0} 
+
+Equipe da Biblioteca Digital de Participação Social

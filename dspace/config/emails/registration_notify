@@ -15,3 +15,14 @@ A new user has registered on {0} at {1}:
 Name:                   {2}
 Email:                  {3}
 Date:                   {4}
+
+
+
+# Registro e-mail de notificação## Os parâmetros: {0} O nome da instância do DSpace # {1} A URL da instância do DSpace # {2} Nome: 
+# {3} Email: # {4} Data de Registro:## Veja org.dspace.core.Email para obter informações sobre o formato deste arquivo. #Assunto: Biblioteca Digital de Participação Social: Notificação de registro  
+
+Um novo usuário se registrou em {0} em {1}: 
+
+Nome: {2} 
+Email: {3} 
+Data: {4}
