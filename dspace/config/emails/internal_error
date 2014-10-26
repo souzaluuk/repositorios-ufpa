@@ -10,21 +10,12 @@
 #
 # See org.dspace.core.Email for information on the format of this file.
 #
-Subject: DSpace: Internal Server Error
-An internal server error occurred on {0}:
+Assunto: E-mail enviado ao endereÃ§o indicado quando ocorre um erro interno do servidor
 
-Date:       {1}
-Session ID: {2}
-User:       {5}
-IP address: {6}
+Data: {1} 
+ID da SessÃ£o: {2} 
+UsuÃ¡rio: {5} 
+EndereÃ§o IP: {6} {3}
+exceÃ§Ã£o: {4}
 
-{3}
-
-Exception:
-{4}
-
-
-# E-mail enviado ao endereço indicado quando ocorre um erro interno do servidor## Parâmetros: {0} URL do servidor DSpace SNAS# {1} Data e hora# {2} ID da Sessão# {3} Parâmetros URL + HTTP parâmetros, se houver# {4} rastreamento de pilha de exceção# {5} Detalhes do Usuário# {6} endereço IP 
-## Veja org.dspace.core.Email para obter informações sobre o formato deste arquivo.#Assunto: Biblioteca Digital de Participação Social: Erro interno de servidor Ocorreu um erro interno do servidor {0}: 
-
-Data: {1} ID da Sessão: {2} Usuário: {5} Endereço IP: {6}{3}exceção:{4}
+A Equipe da Biblioteca Digital de ParticipaÃ§Ã£o Social
