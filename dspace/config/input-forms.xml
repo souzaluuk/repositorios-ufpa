@@ -46,10 +46,12 @@
          <input-type>onebox</input-type>
          <hint>Entre com o(s) termo(s) do Vocabulário Controlado</hint>
          <required></required>
-         <vocabulary>srsc</vocabulary>
+         <vocabulary>vcps</vocabulary>
        </field>
 	   
-	   <field>
+
+<!--       
+       <field>
          <dc-schema>dc</dc-schema>
          <dc-element>relation</dc-element>
          <dc-qualifier>participabr</dc-qualifier>
@@ -59,8 +61,10 @@
          <hint>Entre com a relação Paticipa BR</hint>
          <required></required>
        </field>
-
-	   	<field>
+       -->
+       
+       
+  	<field>
          <dc-schema>dc</dc-schema>
          <dc-element>subject</dc-element>
          <dc-qualifier>keyword</dc-qualifier>
@@ -92,7 +96,7 @@
          <dc-qualifier>alternative</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Título(s) alternativo(s)</label>
-		 <type-bind>Anais de evento, Artigo de periódico, Cartilha, Discurso, Folhetos, Livro, Capítulo de livro, Plano Nacional, Relatório, Trabalho em evento, Foto</type-bind>
+		 <!-- <type-bind>Anais de evento, Artigo de periódico, Cartilha, Discurso, Folhetos, Livro, Capítulo de livro, Plano Nacional, Relatório, Trabalho em evento, Foto</type-bind> -->
          <input-type>onebox</input-type>
          <hint>Entre com o(s) título(s) alternativo(s).</hint>
          <required></required>
@@ -105,7 +109,7 @@
          <dc-qualifier>author</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Autor(es)</label>
-		 <type-bind>Anais de evento, Artigo de periódico, Ata de reunião, Cartilha, Exposição de Motivos, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Recomendação, Relatório, Resolução de Deliberação, Texto-base, Trabalho acadêmico, Trabalho em evento</type-bind>
+		 <!-- <type-bind>Anais de evento, Artigo de periódico, Ata de reunião, Cartilha, Exposição de Motivos, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Recomendação, Relatório, Resolução de Deliberação, Texto-base, Trabalho acadêmico, Trabalho em evento</type-bind> -->
          <input-type>name</input-type>
          <hint>Entre com o(s) nome(s) autor(es).</hint>
          <required>Este campo é obrigatório.</required>
@@ -117,7 +121,7 @@
          <dc-qualifier>diretor</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Diretor</label>
-		 <type-bind>Vídeo</type-bind>
+		 <!-- <type-bind>Vídeo</type-bind> -->
          <input-type>name</input-type>
          <hint>Entre com o nome do diretor.</hint>
          <required>Este campo é obrigatório.</required>
@@ -129,7 +133,7 @@
          <dc-qualifier>diretor</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Fotógrafo</label>
-		 <type-bind>Foto</type-bind>
+		 <!-- <type-bind>Foto</type-bind> -->
          <input-type>name</input-type>
          <hint>Entre com o nome do fotógrafo.</hint>
          <required>Este campo é obrigatório.</required>
@@ -141,7 +145,7 @@
          <dc-qualifier>produtor</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Produtor(es)</label>
-		 <type-bind>Foto</type-bind>
+		 <!-- <type-bind>Foto</type-bind> -->
          <input-type>name</input-type>
          <hint>Entre com o nome do(s) produtor(es).</hint>
          <required>Este campo é obrigatório.</required>
@@ -154,7 +158,7 @@
          <dc-qualifier>other</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Outro(s) contribuidor(es)</label>
-		 <type-bind>Anais de evento, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Relatório, Texto-base, Trabalho acadêmico, Trabalho em evento, Vídeo</type-bind>
+		 <!-- <type-bind>Anais de evento, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Relatório, Texto-base, Trabalho acadêmico, Trabalho em evento, Vídeo</type-bind> -->
          <input-type>name</input-type>
          <hint>Entre com o(s) contribuidor(es).</hint>
          <required></required>
@@ -200,7 +204,7 @@
          <dc-qualifier>abstract</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Resumo(s) em língua estrangeira</label>
-		 <type-bind>Artigo de periódico, Discurso, Livro, Capítulo de livro, Plano Nacional, Relatório, Trabalho acadêmico, Trabalho em evento</type-bind>
+		 <!-- <type-bind>Artigo de periódico, Discurso, Livro, Capítulo de livro, Plano Nacional, Relatório, Trabalho acadêmico, Trabalho em evento</type-bind> -->
          <input-type>textarea</input-type>
          <hint>Entre com o(s) resumo(s) em língua estrangeira.</hint>
          <required></required>
@@ -212,7 +216,7 @@
          <dc-qualifier>tableofcontents</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Sumário</label>
-		 <type-bind>Anais de evento, Ata de reunião, Cartilha, Discurso, Livro, Plano Nacional, Recomendação, Relatório, Texto-base</type-bind>
+		 <!-- <type-bind>Anais de evento, Ata de reunião, Cartilha, Discurso, Livro, Plano Nacional, Recomendação, Relatório, Texto-base</type-bind> -->
          <input-type>textarea</input-type>
          <hint>Entre com o sumário.</hint>
          <required></required>
@@ -224,7 +228,7 @@
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Editor(a)</label>
-		 <type-bind>Anais de evento, Cartilha, Discurso, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Relatório, Texto-base, Vídeo, Foto</type-bind>
+		 <!-- <type-bind>Anais de evento, Cartilha, Discurso, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Relatório, Texto-base, Vídeo, Foto</type-bind> -->
          <input-type>onebox</input-type>
          <hint>Entre com o(a) editor(a).</hint>
          <required></required>
@@ -262,7 +266,7 @@
          <dc-qualifier>issn</dc-qualifier>
          <repeatable>false</repeatable>
          <label>ISSN</label>
-		 <type-bind>Anais de evento</type-bind>
+		 <!-- <type-bind>Anais de evento</type-bind> -->
          <input-type>onebox</input-type>
          <hint>Entre com o ISSN.</hint>
          <required></required>
@@ -274,7 +278,7 @@
          <dc-qualifier>isbn</dc-qualifier>
          <repeatable>false</repeatable>
          <label>ISBN</label>
-		 <type-bind>Anais de evento, Cartilha, Folhetos, Guia e Manual, Livro, Plano Nacional</type-bind>
+		 <!-- <type-bind>Anais de evento, Cartilha, Folhetos, Guia e Manual, Livro, Plano Nacional</type-bind> -->
          <input-type>onebox</input-type>
          <hint>Entre com o ISBN.</hint>
          <required></required>
@@ -297,7 +301,7 @@
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Relação</label>
-		 <type-bind>Anais de evento, Ata de reunião, Recomendação, Resolução e Deliberação, Texto-base</type-bind>
+		 <!-- <type-bind>Anais de evento, Ata de reunião, Recomendação, Resolução e Deliberação, Texto-base</type-bind> -->
          <input-type>onebox</input-type>
          <hint>Entre com a descrição (título) de um outro documento relacionado a este.</hint>
          <required></required>
@@ -309,7 +313,7 @@
          <dc-qualifier>ispartof</dc-qualifier>
          <repeatable>false</repeatable>
          <label>É parte de</label>
-		 <type-bind>Artigo de periódico, Capítulo de livro</type-bind>
+		 <!-- <type-bind>Artigo de periódico, Capítulo de livro</type-bind> -->
          <input-type>onebox</input-type>
          <hint>Entre com o link de referência do qual o recurso faz parte.</hint>
          <required></required>
@@ -321,7 +325,7 @@
          <dc-qualifier>replaces</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Este recurso substitui</label>
-		 <type-bind>Ato normativo</type-bind>
+		 <!-- <type-bind>Ato normativo</type-bind> -->
          <input-type>onebox</input-type>
          <hint>Entre com o link do documento que este recurso substitui.</hint>
          <required></required>
@@ -333,7 +337,7 @@
          <dc-qualifier>isreplacedby</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Foi substituído por</label>
-		 <type-bind>Ato normativo</type-bind>
+		 <!-- <type-bind>Ato normativo</type-bind> -->
 		 <input-type>onebox</input-type>
          <hint>Entre com o link documento que substituiu este recurso.</hint>
          <required></required>
@@ -345,7 +349,7 @@
          <dc-qualifier>spatial</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Cobertura espacial</label>
-		 <type-bind>Plano Nacional, Relatório</type-bind>
+		 <!-- <type-bind>Plano Nacional, Relatório</type-bind> -->
          <input-type>onebox</input-type>
          <hint>Entre com a cobertura espacial.</hint>
          <required></required>
@@ -358,7 +362,7 @@
          <dc-qualifier>temporal</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Cobertura temporal</label>
-		 <type-bind>Ata de reunião, Plano Nacional, Relatório</type-bind>
+		 <!-- <type-bind>Ata de reunião, Plano Nacional, Relatório</type-bind> -->
          <input-type>onebox</input-type>
          <hint>Entre com a cobertura temporal.</hint>
          <required></required>
@@ -370,7 +374,7 @@
          <dc-qualifier>holder</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Detentor(es) dos direitos da licença</label>
-		 <type-bind>Anais de evento, Artigo de periódico, Ata de reunião, Cartilha, Discurso, Exposição de Motivos, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Recomendação, Relatório, Resolução e Deliberação, Texto-base, Trabalho acadêmico, Trabalho em evento, Vídeo</type-bind>
+		 <!-- <type-bind>Anais de evento, Artigo de periódico, Ata de reunião, Cartilha, Discurso, Exposição de Motivos, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Recomendação, Relatório, Resolução e Deliberação, Texto-base, Trabalho acadêmico, Trabalho em evento, Vídeo</type-bind> -->
          <input-type>onebox</input-type>
          <hint>Entre com o(s) detentor(es) dos direitos da licença.</hint>
          <required></required>
@@ -382,7 +386,7 @@
          <dc-qualifier>licence</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Licença atribuída</label>
-		 <type-bind>Anais de evento, Artigo de periódico, Ata de reunião, Cartilha, Discurso, Exposição de Motivos, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Recomendação, Relatório, Resolução e Deliberação, Texto-base, Trabalho acadêmico, Trabalho em evento, Vídeo</type-bind>
+		 <!-- <type-bind>Anais de evento, Artigo de periódico, Ata de reunião, Cartilha, Discurso, Exposição de Motivos, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Recomendação, Relatório, Resolução e Deliberação, Texto-base, Trabalho acadêmico, Trabalho em evento, Vídeo</type-bind> -->
          <input-type value-pairs-name="common_licences">dropdown</input-type>
          <hint>Selecione a licença atribuída.</hint>
          <required></required>
@@ -430,6 +434,10 @@
      <pair>
        <displayed-value>Cartilha</displayed-value>
        <stored-value>Cartilha</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Apostila</displayed-value>
+       <stored-value>Apostila</stored-value>
      </pair>
      <pair>
        <displayed-value>Discurso</displayed-value>

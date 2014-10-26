@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<node id="vocab_part" label="Vocabulário Controlado para Biblioteca de Participação Social">
+  <isComposedBy>
+    <node id="vocabIPEA" label="Vocabulário repassado pelo IPEA">
+      <isComposedBy>
+        <node id="1" label="Participação Social"/>
+        <node id="2" label="Participação Popular"/>
+        <node id="3" label="Participação Política"/>
+        <node id="4" label="Participação Local"/>
+        <node id="5" label="Conselhos Nacionais"/>
+        <node id="6" label="Conselhos Gestores"/>
+        <node id="7" label="Institucionalização"/>
+        <node id="8" label="Políticas Públicas"/>
+        <node id="9" label="Desigualdade"/>
+        <node id="10" label="Inclusão Política"/>
+        <node id="11" label="Deliberação"/>
+        <node id="12" label="Interfaces Socioestatais"/>
+        <node id="13" label="Representação e Participação"/>
+        <node id="14" label="Representação Política"/>
+        <node id="15" label="Democracia"/>
+        <node id="16" label="Instituições Participativas"/>
+        <node id="17" label="Conferências Nacionais"/>
+        <node id="18" label="Conferências Estaduais"/>
+        <node id="19" label="Conferências Municipais"/>
+        <node id="20" label="Metodologias de Participação"/>
+        <node id="21" label="Metodologias de Diálogo"/>
+        <node id="22" label="Efetividade"/>
+        <node id="23" label="Institucionalização"/>
+        <node id="24" label="Monitoramento"/>
+        <node id="25" label="Avaliação"/>
+        <node id="26" label="Controle Social"/>
+        <node id="27" label="Governança"/>
+      </isComposedBy>
+    </node>
+    <node id="vocabOPS" label="Vocabulário observado na OPS">
+      <isComposedBy>
+        <node id="28" label="Participante"/>
+        <node id="29" label="Ator Social"/>
+        <node id="30" label="Iniciador"/>
+        <node id="31" label="Executor"/>
+        <node id="32" label="Apoiador"/>
+        <node id="33" label="Causa"/>
+        <node id="34" label="Ação"/>
+        <node id="35" label="Resultado"/>
+        <node id="36" label="Solução"/>
+        <node id="37" label="Problema"/>
+        <node id="38" label="Tema"/>
+      </isComposedBy>
+    </node>
+    <node id="vocabFreqParticipa" label="Vocabulário com bastante incidência no Participa.br">
+      <isComposedBy>
+        <node id="39" label="Educação Politica"/>
+        <node id="40" label="Acesso"/>
+        <node id="41" label="Direitos da População"/>
+        <node id="42" label="Sistemas Sociais"/>
+        <node id="43" label="Poder do Povo"/>
+        <node id="44" label="Diálogo"/>
+        <node id="45" label="Representante"/>
+        <node id="46" label="Atendimento"/>
+        <node id="47" label="Controle"/>
+        <node id="48" label="Artigo"/>
+      </isComposedBy>
+    </node>
+    <node id="vocabOPA" label="Vocabulário observado na OPA">
+      <isComposedBy>
+        <node id="49" label="Comunidade"/>
+        <node id="50" label="Subcomunidade"/>
+        <node id="51" label="Remuneração"/>
+        <node id="52" label="Recompensa"/>
+        <node id="53" label="Gratificação"/>
+        <node id="54" label="Vínculo Formal"/>
+        <node id="55" label="Responsável"/>
+        <node id="56" label="Tags"/>
+        <node id="57" label="Data"/>
+        <node id="58" label="Classificação"/>
+        <node id="59" label="Característica Participativa"/>
+        <node id="60" label="Informação de Referência"/>
+        <node id="61" label="Portal Participativo"/>
+        <node id="62" label="Trilha Participativa"/>
+        <node id="63" label="Etapa Participativa"/>
+        <node id="64" label="Evento Participativo"/>
+        <node id="65" label="Mecanismo Participativo"/>
+        <node id="66" label="Galeria de Imagens"/>
+        <node id="67" label="Blog"/>
+        <node id="68" label="Fórum"/>
+        <node id="69" label="Consulta Pública"/>
+        <node id="70" label="Postagem"/>
+        <node id="71" label="Comentário"/>
+        <node id="72" label="Voto"/>
+        <node id="73" label="Voto Positivo"/>
+        <node id="74" label="Voto Negativo"/>
+        <node id="75" label="Visitação"/>
+        <node id="76" label="Reunião Virtual"/>
+        <node id="77" label="Resultado, Participante"/>
+        <node id="78" label="Meio de Comunicação"/>
+        <node id="79" label="Propositor"/>
+      </isComposedBy>
+    </node>
+    <node id="vocabPNPS" label="Vocabulário observado no Decreto nº 8243/14 (PNPS)">
+      <isComposedBy>
+        <node id="80" label="Sociedade Civil"/>
+        <node id="81" label="Conselho de Políticas Públicas"/>
+        <node id="82" label="Comissão de Políticas Públicas"/>
+        <node id="83" label="Conferência Nacional"/>
+        <node id="84" label="Ouvidoria Pública Federal"/>
+        <node id="85" label="Mesa de Diálogo"/>
+        <node id="86" label="Fórum Interconselhos"/>
+        <node id="87" label="Audiência Pública"/>
+        <node id="88" label="Consulta Pública"/>
+        <node id="89" label="Ambiente Virtual de Participação Social"/>
+      </isComposedBy>
+    </node>
+  </isComposedBy>
+</node>

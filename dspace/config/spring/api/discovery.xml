@@ -98,7 +98,7 @@
                 <ref bean="searchFilterAuthor" />
                 <ref bean="searchFilterSubject" />
                 <ref bean="searchFilterIssued" />
-				<ref bean="searchFilterType" />
+		<ref bean="searchFilterType" />
             </list>
         </property>
         <!--The search filters which can be used on the discovery search page-->
@@ -108,7 +108,7 @@
                 <ref bean="searchFilterAuthor" />
                 <ref bean="searchFilterSubject" />
                 <ref bean="searchFilterIssued" />
-				<ref bean="searchFilterType" />
+		<ref bean="searchFilterType" />
             </list>
         </property>
         <!--The sort filters for the discovery search-->
@@ -203,7 +203,7 @@
                 <ref bean="searchFilterAuthor" />
                 <ref bean="searchFilterSubject" />
                 <ref bean="searchFilterIssued" />
-				<ref bean="searchFilterType" />
+		<ref bean="searchFilterType" />
             </list>
         </property>
         <!--The search filters which can be used on the discovery search page (same as defaultConfiguration above)-->
@@ -213,7 +213,7 @@
                 <ref bean="searchFilterAuthor" />
                 <ref bean="searchFilterSubject" />
                 <ref bean="searchFilterIssued" />
-				<ref bean="searchFilterType" />
+		<ref bean="searchFilterType" />
             </list>
         </property>
         <!--The sort filters for the discovery search (same as defaultConfiguration above)-->
@@ -283,8 +283,8 @@
         <property name="indexFieldName" value="author"/>
         <property name="metadataFields">
             <list>
-                <value>dc.contributor.author</value>
-                <value>dc.creator</value>
+                <value>dc.contributor.*</value>
+		<!-- <value>dc.creator</value>  -->
             </list>
         </property>
         <property name="facetLimit" value="10"/>
@@ -314,7 +314,7 @@
         <property name="sortOrder" value="VALUE"/>
     </bean>
 	
-	<bean id="searchFilterType" class="org.dspace.discovery.configuration.DiscoverySearchFilterFacet">
+    <bean id="searchFilterType" class="org.dspace.discovery.configuration.DiscoverySearchFilterFacet">
 	<property name="indexFieldName" value="type"/>
         <property name="metadataFields">
             <list>
