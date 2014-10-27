@@ -397,6 +397,18 @@
          <hint>Selecione a licença atribuída.</hint>
          <required></required>
        </field>
+       
+       <field>
+         <dc-schema>dc</dc-schema>
+         <dc-element>rights</dc-element>
+         <dc-qualifier></dc-qualifier>
+         <repeatable>false</repeatable>
+         <label>Termos da licença</label>
+		 <!-- <type-bind>Anais de evento, Artigo de periódico, Ata de reunião, Cartilha, Discurso, Exposição de Motivos, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Recomendação, Relatório, Resolução e Deliberação, Texto-base, Trabalho acadêmico, Trabalho em evento, Vídeo</type-bind> -->
+         <input-type>textarea</input-type>
+         <hint>Entre com os termos da licença adotada.</hint>
+         <required></required>
+       </field>
 	   
 	   
      </page>
@@ -438,12 +450,24 @@
        <stored-value>Ato normativo</stored-value>
      </pair>
      <pair>
+       <displayed-value>Apresentação</displayed-value>
+       <stored-value>Apresentação</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Folder</displayed-value>
+       <stored-value>Folder</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Moção</displayed-value>
+       <stored-value>Moção</stored-value>
+     </pair>
+     <pair>
        <displayed-value>Cartilha</displayed-value>
        <stored-value>Cartilha</stored-value>
      </pair>
      <pair>
-       <displayed-value>Apostila</displayed-value>
-       <stored-value>Apostila</stored-value>
+       <displayed-value>Texto instrucional</displayed-value>
+       <stored-value>Texto instrucional</stored-value>
      </pair>
      <pair>
        <displayed-value>Discurso</displayed-value>
