@@ -247,7 +247,7 @@
          <repeatable>true</repeatable>
          <label>Formato(s) do(s) arquivo(s)</label>
          <input-type value-pairs-name="common_formats">dropdown</input-type>
-         <hint>Selecione o(s) formatos do(s) arquivo(s), e precione a tecla "ctrl" para agregar mais um formato</hint>
+         <hint>Selecione o(s) formatos do(s) arquivo(s), e pressione a tecla "ctrl" para agregar mais um formato</hint>
          <required></required>
        </field>
 	   
@@ -306,7 +306,7 @@
          <label>Relação(ões)</label>
 	 <!-- <type-bind>Anais de evento, Ata de reunião, Recomendação, Resolução e Deliberação, Texto-base</type-bind> -->
          <input-type>onebox</input-type>
-         <hint>Entre com o(s) link(s) relacionado(s) a este documento.</hint>
+         <hint>Entre com o(s) link(s) de documento(s) relacionado(s) ao Item.</hint>
          <required></required>
        </field>
 	 
@@ -556,6 +556,10 @@
      <pair>
        <displayed-value>Outro</displayed-value>
        <stored-value>other</stored-value>
+     </pair>
+      <pair>
+       <displayed-value>N/A</displayed-value>
+       <stored-value>N/A</stored-value>
      </pair>
    </value-pairs>
    
