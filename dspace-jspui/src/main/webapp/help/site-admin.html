@@ -11,153 +11,149 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-    <title>DSpace: Site Administrator Help</title>
+    <title>DSpace: Ajuda Administrador do Site</title>
     <link rel="stylesheet" href="../styles.css" type="text/css"/>
   </head>
 
   <body class="help">
-    <h2>Site Administrator Help</h2>
+    <h2>Ajuda Administrador do Site</h2>
 
     <table>
       <tr>
-        <td align="left"><h3>Help Contents</h3></td>
-        <td align="right"><a href="#" onclick="window.close()">Close this window</a></td>
+        <td align="left"><h3>Conteúdo da Ajuda</h3></td>
+        <td align="right"><a href="#" onclick="window.close()">Fechar</a></td>
       </tr>
     </table>
 
     <ul>
-      <li><a href="#general">General Information</a></li>
-      <li><a href="#topcommunity">Creating a Top-level Community</a></li>
-      <li><a href="#subcommunity">Creating a Sub-community</a></li>
-      <li><a href="#editcommunity">Editing a Community</a></li>
-      <li><a href="#createcollection">Creating a Collection</a></li>
-      <li><a href="#editcollection">Editing a Collection</a></li>
-      <li><a href="#epeople">E-people</a></li>
-      <li><a href="#groups">Groups</a></li>
-      <li><a href="#items">Items</a></li>
-      <li><a href="#supervision">Supervision Orders</a></li>
-      <li><a href="#dublincore">Dublin Core Registry</a></li>
-      <li><a href="#bitstream">Bitstream Format Registry</a></li>
-      <li><a href="#workflow">Workflow</a></li>
-      <li><a href="#authorize">Authorization</a></li>
-      <li><a href="#editnews">Edit News</a></li>
-      <li><a href="#editlicense">Edit Default License</a></li>
+      <li><a href="#general">Informações gerais</a></li>
+      <li><a href="#topcommunity">Criação de uma comunidade de nível superior</a></li>
+      <li><a href="#subcommunity">Criando uma Sub-comunidade</a></li>
+      <li><a href="#editcommunity">Editando uma comunidade</a></li>
+      <li><a href="#createcollection">Criar uma coleção</a></li>
+      <li><a href="#editcollection">Editando uma coleção</a></li>
+      <li><a href="#epeople">E-usuário</a></li>
+      <li><a href="#groups">Grupos</a></li>
+      <li><a href="#items">Itens</a></li>
+      <li><a href="#supervision">Ordens de Supervisão</a></li>
+      <li><a href="#dublincore">Registro Dublin Core</a></li>
+      <li><a href="#bitstream">Formato do Registro Bitstream</a></li>
+      <li><a href="#workflow">Fluxo de Trabalho</a></li>
+      <li><a href="#authorize">Autorização</a></li>
+      <li><a href="#editnews">Editar Notícias</a></li>
+      <li><a href="#editlicense">Editar Licença Padrão</a></li>
     </ul>
 
-    <h3><a name="general"></a>General Information</h3>
+    <h3><a name="general"></a>Informações gerais</h3>
 
-    <p>As of DSpace 1.2, many administration tools can now be accessed via the regular DSpace UI.  However, they only appear if you are logged in as an administrator.  The easiest way to do this is to go to your 'My DSpace' page.</p>
+    <p>A partir da versão DSpace 1.2, muitas ferramentas de administração podem agora ser acessadas pelo DSpace padrão UI (User Interface).  No entanto, elas só aparecem se você estiver logado como Administrador. A maneira mais fácil de fazer isso é ir para a página "Meu espaço".</p>
 
-    <p>Some tasks must be performed entrally using the administration user interface, part of the Web UI. To access the administration UI, enter the base URL of your DSpace followed by <code>/dspace-admin</code>, for example:</p>
+    <p>Algumas tarefas devem ser realizadas internamente usando a interface do usuário Administrador, parte da Interface do Usuário Web. Para acessar a interface do usuário Administrador, digite a URL base do seu DSpace seguido por <pre>/dspace-admin</pre>, por exemplo:</p>
 
     <pre>https://dspace.myu.edu/dspace-admin</pre>
 
-    <p>You will need to authenticate as an administrator to be able to access the page.  Then, click on the relevant tool on the left-hand navigation bar.</p>
+    <p>Você vai precisar da autenticação como administrador para ser autorizado a acessar a página. Em seguida, clique na ferramenta respectiva na barra de navegação do lado esquerdo.</p>
 
 
-    <h3><a name="topcommunity"></a>Creating a Top-level Community</h3>
+    <h3><a name="topcommunity"></a>Criação de uma Comunidade de Nível Superior</h3>
 
-    <p>To add a top-level community, go to the community/collection listing page
-    while logged in as an administrator.  On the right there will be an option
-    to <em>Create Top-Level Community...</em>.  Clicking on this will create the
-    new top level community and take you to the 'Edit Community' page.</p>
+    <p>Para adicionar uma comunidade de nível superior, vá para a página da listagem  de Comunidade / Coleção quando estiver conectado como administrador. À direita, haverá uma opção <em>Criar Comunidade de Primeiro Nível ...</em>. Ao clicar sobre esta opção você criará uma nova Comunidade de nível superior e será levado para a página 'Editar Comunidade'.</p>
 
 
-    <h3><a name="subcommunity"></a>Creating a Sub-community</h3>
+    <h3><a name="subcommunity"></a>Criando uma Sub-comunidade</h3>
 
-    <p>To create a sub-community, go to the community home page of the community that is to be the parent of the new sub-community.  Then, click on the 'Create sub-community' in the 'Admin Tools' box at the top right-hand corner of the page.  This will create the new community and take you to the 'Edit Community' page for that community.</p>
+    <p>Para criar uma sub-comunidade, vá para a página inicial da Comunidade pai da nova sub-comunidade. Em seguida, clique no botão "Criar sub-comunidade" na caixa "Ferramentas Admin" no canto superior direito da página. Isto irá criar a nova comunidade e levará para a página 'Editar Comunidade'.</p>
 
 
-    <h3><a name="editcommunity"></a>Editing a Community</h3>
+    <h3><a name="editcommunity"></a>Editando uma Comunidade</h3>
 
     <ul>
-      <li>Fill out the form as needed. 'Name', 'short description' and 'Introductory text' are required; the rest of the fields are optional.</li>
-      <li>The 'short description' appears on the community list page below the community name, and should be one or two sentences of plain text describing the community.</li>
-      <li>The 'introductory text,' 'side bar' and 'copyright text' fields are displayed on the community's home page.  'Introductory text' and 'side bar text' are both HTML fields, which means you should place text in &lt;P&gt; &lt;/P&gt;</li>
-      <li>To add a logo to be displayed on the community's home page, click on the <strong>Upload Logo</strong> button.  On the next screen either type in a path to the logo file or browse to the logo file, then click on the <strong>Upload</strong> button. Note, if you're creating a community, it's best to fill out the rest of the form, click 'Update' and then come back to do this.  Note that in general, relatively small logo sizes look best due to the design of the collection home page.</li>
-      <li>When all information for the Community Page is entered, click on the <strong>Create</strong> button.</li>
+      <li>Preencha o formulário conforme necessário. Os campos 'Nome', 'Descrição curta' e 'Texto introdutório' são obrigatórios; os demais campos são opcionais.</li>
+      <li>A 'Descrição curta' aparece na página da comunidade abaixo do nome da comunidade, e deve ser uma ou duas frases de texto simples que descrevem a comunidade.</li>
+      <li>Os campos "Texto introdutório 'Texto da barra lateral' e 'Texto de copyright' são exibidos na página inicial da comunidade. 'Texto introdutório' e 'Texto da barra lateral' "são os dois campos de HTML, o que significa que você deve colocar o texto em &lt;P&gt; &lt;/P&gt;</li>
+      <li>Para adicionar um logotipo a ser exibido na página inicial da comunidade, clique no botão <strong>Upload logo</strong>. Na próxima tela, digite um caminho para o arquivo do logotipo ou navegue até o arquivo de logotipo, em seguida, clique no  botão <strong>Upload logo</strong>. Note que, se você está criando uma comunidade, é melhor preencher o restante do formulário, clique em "Update" e depois voltar para fazer isso. Note-se que, em geral, os logotipos pequenos são mais adequados devido ao design da home page da coleção.</li>
+      <li>Quando todas as informações para a página da comunidade estiverem inseridas, clique no botão <strong>Criar</strong> button.</li>
     </ul>
 
 
-    <h3><a name="createcollection"></a>Creating a Collection</h3>
+    <h3><a name="createcollection"></a>Criando uma coleção</h3>
 
-    <p>Creating a collection is done with a 'wizard' style tool that should be familiar to most people who've used modern operating systems user interfaces.  It's rather similar to the submission interface in DSpace.</p>
+    <p>A criação de uma coleção é feita com uma ferramenta de estilo 'wizard' que deve ser familiar para a maioria das pessoas que já usaram interfaces de usuário de sistemas operacionais modernos.  Ela é bastante semelhante à interface de submissão no DSpace.</p>
 
-    <p><strong>Note:  You cannot add new e-people records with this wizard.</strong>  All the e-person records must be loaded into the system first.  However, you will be able to add more e-people and/or groups to each group associated with the collection later if required.</p>
+    <p><strong>Nota: Você não pode adicionar novos registros de usuários com este assistente.</strong> Todos os registros de usuários devem ser carregados primeiro no sistema. No entanto, depois você poderá adicionar mais usuários e / ou grupos a cada grupo associado à coleção, se necessário.</p>
 
-    <p>To create a collection, ensure you're logged in, go to the community home page for the community in which the collection is to appear, and click 'Create Collection' on the top-right hand corner of the page.  This will start the wizard.</p>
+    <p>Para criar uma coleção, assegure-se que você está logado, vá para a página inicial da comunidade na qual coleção deve aparecer, e clique em "Criar Coleção” 'no canto superior direito da página. Isto irá iniciar o assistente.</p>
 
-    <h4><a name="wizard_questions"></a>Describe the Collection (Checkboxes)</h4>
+    <h4><a name="wizard_questions"></a>Descrever a Coleção (caixas de seleção)</h4>
 
-    <p>The first page of the wizard will ask you some questions about the new collection.  Check those that apply and click on the 'Next&nbsp;&gt;' button.  Note that after you've completed the wizard, you will be able to edit the collection later, so decisions you make here are not permanent.</p>
+    <p>A primeira página do assistente vai lhe fazer algumas perguntas sobre a nova coleção. Confira as que se aplicam e clique no botão 'Próximo>'. Observe que depois de ter concluído o assistente, você poderá editar a coleção mais tarde, então as decisões que você fizer aqui não são definitivas.</p>
 
-    <p>However, also note that this wizard is a little less polished than the submission UI, which basically means there are no 'back' buttons, so if you want to change something you entered on one page after clicking 'next', you need to finish the wizard and then go back and edit the collection.</p>
+    <p>No entanto, observe também que o assistente é um pouco menos sofisticado do que a submissão pela Interface do Usuário, o que significa que não há botões "Voltar", se você quiser mudar algo depois de clicar em 'próximo'. Para isto você precisa concluir a tarefa no assistente e, em seguida, voltar e editar a coleção.</p>
 
-    <p>When you have completed the wizard, you're dropped into the Edit Collection screen.  This allows you to review what you've entered and make any necessary tweaks.</p>
+    <p>Quando tiver concluído o assistente, você entrará na tela Editar Coleção. Isso permite que você reveja o que digitou e faça os ajustes necessários.</p>
 
-    <p>Note 1:  If the <strong>New items should be publicly readable</strong> option is checked, it means that new items arriving via the submission UI or batch importer will, by default, will get anonymous READ permissions for both the item and all the bitstreams).  You can change this later so that e.g. items get anonymous READ permissions but bitstreams do not.  Items that are 'mapped' or included from other collections will not have their authorizations changed.</p>
+    <p>Nota 1: Se a opção <strong>Novos itens podem ser legíveis publicamente</strong> for marcada, significa que os novos itens submetidos pela interface do usuário ou por importação em lote, terão por padrão, a permissão READ dos usuários anônimos, tanto para o item e todos os bitstreams. Você pode mudar este padrão,  para que, por exemplo, os itens possam ter permissões de leitura por usuários anônimos, mas os bitstreams não. Os itens que são "mapeados" ou incluídos partir de outras coleções, não terão suas autorizações alteradas.</p>
 
-    <p>Note 2:  <strong>New items should be publicly readable</strong> is just a default; an item's permissions may later changed.</p>
+    <p>Nota 2:  <strong>Novos itens podem ser legíveis publicamente</strong> é apenas um padrão; permissões de um item poderão ser modificadas.</p>
 
-    <p>Note 3:  If <strong>New items should be publicly readable</strong> is <em>not</em> checked, you will be asked later in the wizard who is allowed to read new items.  Again, this is just a default, and can be changed later.</p>
-
-
-    <h4><a name="wizard_description"></a>Describe the Collection (Information)</h4>
-
-    <p>The next page allows you to fill in some basic information about the collection.  The <strong>Name</strong>, <strong>Short Description</strong> and <strong>Introductory Text</strong> fields are mandatory, the others are not.  (Note that the wizard is not strict, however, and will not enforce this.)</p>
-
-    <p><strong>Copyright Text</strong> is simply text that will appear at the bottom of the collection's home page.</p>
-
-    <p><strong>License</strong> is the <em>deposit license</em> (the license that submitters must grant when they submit an item) for this collection.  This overrides the site default (which is stored in <em>[dspace]</em>/config/default.license and must be edited by a systems adminstrator).  If you leave this field blank, the site default license is used.</p>
-
-    <p><strong>Provenance</strong> is a free-text field you can put any provenance information in you feel like.  It is not visible to end-users.</p>
+    <p>Nota 3: Se a opção <strong>Novos itens podem ser legíveis publicamente</strong> <em>não</em> é marcada, você será solicitado, posteriormente, a informar no assistente  quem tem permissão para ler os novos itens. Novamente, este é apenas um padrão, e pode ser alterado posteriormente.</p>
 
 
-    <h4><a name="wizard_permissions"></a>Collection Authorization</h4>
+    <h4><a name="wizard_description"></a>Descrever a Coleção (Informação)</h4>
 
-    <p>Depending on the boxes you checked on the first page of the wizard, you will go through a number of screens asking you which e-people and/or groups can or should perform which actions, for example who can submit, and who should perform the <em>accept/reject</em> submission workflow step.  These pages work exactly the same as the <a href="collection-admin.html#groupeditor">group editor</a>.  Click 'Next&nbsp;&gt;' when you have selected all the e-people and/or groups to appear in the relevant permissions group.</p>
+    <p>A próxima página permite que você preencha algumas informações básicas sobre a coleção. <p>O <strong>Nome</strong>, a <strong>Descrição curta</strong> e o <strong>Texto introdutório</strong> não são campos obrigatórios. Note que, no entanto, que é altamente recomendado o preechimento destes.</p>
 
-    <p>Note:  You cannot add new e-people records with this wizard.  All the e-person records must be loaded into the system first.  You can add more e-people and/or groups to each group later if required.</p>
+    <p><strong>Texto de Copyright</strong> é um texto que será exibido na parte inferior da home page da coleção.</p>
+
+    <p><strong>Licença</strong> é a <em>licença de depósito</em> (licença que o depositante deverá conceder quando submete o item) para esta coleção.  Esta substitui a licença padrão da Biblioteca Digital (que é armazenada em <pre>[dspace]/config/default.license</pre> e deve ser editada pelo administrador do sistema). Se você deixar este campo em branco, a licença padrão da Biblioteca Digital será usada.</p>
+
+    <p><strong>Procedência</strong> é um campo de texto livre no qual você pode digitar qualquer informação de proveniência. Esta informação não é visível para os usuários finais.</p>
 
 
-    <h4><a name="wizard_default"></a>Enter Default Item Metadata</h4>
+    <h4><a name="wizard_permissions"></a>Autorização de Coleção</h4>
 
-    <p>On this screen you can specify some Dublin Core values that new submissions will have pre-filled out.  Some of the values you can set here do not appear in the submission UI, so end-users may not have the chance to edit them.  This can be a good or a bad thing!  (FIXME?)  Also note that these Dublin Core values will be added to items imported via the batch importer.</p>
+    <p>Dependendo das caixas que você marcou na primeira página do assistente, você vai passar por uma série de telas perguntando quais usuários e/ou grupos podem ou devem realizar ações como, por exemplo, quem pode submeter, e quem deve <em>aceitar/rejeitar</em> a submissão no fluxo de trabalho. Essas páginas funcionam exatamente como o <a href="collection-admin.html#groupeditor">editor de grup</a>.  Clique em 'Próximo&nbsp;&gt;' uando você tiver selecionado todos os usuários e/ou grupos que aparecem no respectivo grupo de permissões.</p>
+
+    <p>Nota: Você não pode adicionar novos registros de usuários com este assistente. Todos os registros de usuários devem ser primeiramente carregados no sistema. Você pode adicionar mais usuários e/ou grupos a cada grupo mais tarde, se necessário.</p>
+
+
+    <h4><a name="wizard_default"></a>Digite Metadados Padrão do Item</h4>
+
+    <p>Nesta tela você pode especificar alguns valores Dublin Core que terão que ser pré-preenchidos para as novas submissões. Alguns dos valores que você definir aqui não aparecem para submissão na interface do usuário, por isso os usuários finais podem não ter a oportunidade de editá-los. Esta pode ser uma coisa boa ou ruim! (FIXME?) Observe também que esses valores Dublin Core serão adicionados aos itens importados por lote.</p>
 
     
-    <h3><a name="editcollection"></a>Editing a Collection</h3>
-    <p>The Edit Collection page allows you to change collection metadata (such as name and introductory text), configure authorization and workflow, or delete the collection entirely.</p>
+    <h3><a name="editcollection"></a>Editando uma coleção</h3>
+    <p>A página Editar Coleção permite que você altere os metadados da coleção (como Nome e Texto introdutório), configurar a autorização e fluxo de trabalho, ou excluir a coleção inteiramente.</p>
 
-    <p>The 'Delete' button (located at the top of the page) will remove the collection (including all its items) from the repository.</p>
+    <p>O botão "Apagar' (localizado no topo da página) irá remover a coleção (incluindo todos os seus itens) da Biblioteca Digital.</p>
 
-    <p>The <strong>Name</strong>, <strong>Short Description</strong> and <strong>Introductory Text</strong> fields are mandatory, the others are not. Note that this is not enforced, but is highly recommended.</p>
+    <p>O <strong>Nome</strong>, a <strong>Descrição curta</strong> e o <strong>Texto introdutório</strong> não são campos obrigatórios.  que, no entanto, que é altamente recomendado o preechimento destes.</p>
 
-    <p><strong>Copyright Text</strong> is simply text that will appear at the bottom of the collection's home page.</p>
+    <p>O <strong>Copyright Text</strong> is simply text that will appear at the bottom of the collection's home page.</p>
 
-    <p><strong>License</strong> is the <em>deposit license</em> (the license that submitters must grant when they submit an item) for this collection.  This overrides the site default (which is stored in <em>[dspace]</em>/config/default.license and must be edited by a systems adminstrator).  If you leave this field blank, the site default license is used.
-    There are some substitution variables that can be used to create personalized licenses:</p>
+    <p><p><strong>Licença</strong> é a <em>licença de depósito</em> (licença que o depositante deverá conceder quando submete o item) para esta coleção.  Esta substitui a licença padrão da Biblioteca Digital (que é armazenada em <pre>[dspace]/config/default.license</pre> e deve ser editada pelo administrador do sistema). Se você deixar este campo em branco, a licença padrão da Biblioteca Digital será usada.
+    Existem algumas variáveis ​​de substituição, que podem ser utilizadas para criar licenças personalizadas:</p>
     <ul>
-	    <li><strong>%1$s</strong> will be translated in the "submitter first name"</li> 
-		<li><strong>%2$s</strong> will be translated in the "submitter last name"</li>
-		<li><strong>%3$s</strong> will be translated in the "submitter email" </li>
-		<li><strong>%4$s</strong> will be translated in the current date</li>
-		<li><strong>%5$s</strong> will be translated in the collection info</li> 
-		<li><strong>%6$s</strong> will be translated in the item info </li>
-		<li><strong>%7$s</strong> will be translated in the eperson info</li> 
+	    <li><strong>%1$s</strong> será traduzido para o "primeiro nome do depositante"</li> 
+		<li><strong>%2$s</strong> será traduzido para o "último sobrenome do depositante"</li>
+		<li><strong>%3$s</strong> será traduzido no "email do depositante" </li>
+		<li><strong>%4$s</strong> será traduzido para a data atual</li>
+		<li><strong>%5$s</strong> será traduzido na informação da coleção</li> 
+		<li><strong>%6$s</strong> será traduzido na informação do item</li>
+		<li><strong>%7$s</strong> será traduzido na informação do usuário</li> 
     </ul>
-	<p>If you need to embed in the license text the % symbol you need to escape it with a second %, i.e. you need to write %%. 
-	It is recommended to use a dummy submission to check the license change:  <strong>check the resulting license in the Accept/reject Licence step.</strong> 
+	<p>Se você precisa incorporar no texto da licença o símbolo %, você pode evitar a inclusão de um segundo %, escrevendo %%. Recomenda-se usar uma submissão fictícia para verificar a mudança na licença:   <strong>verifique a licença resultante na etapa Aceitar / Rejeitar licença.</strong> 
     </p>
 
-    <p><strong>Provenance</strong> is a free-text field you can put any provenance information in you feel like.  It is not visible to end-users.</p>
+    <p><strong>Procedência</strong> é um campo de texto livre você pode colocar qualquer informação de proveniência que lhe convier. Esta informação não é visível para os usuários finais.</p>
 
-    <p>To add or change the logo to be displayed on the collection's home page, click on the Upload Logo button. On the next screen either type in a path to the logo file or browse to the logo file, then click on the Upload button.</p>
+    <p>Para adicionar ou alterar o logotipo a ser exibido na home page da coleção, clique no botão “Carregar Logo”. Na próxima tela, digite um caminho para o arquivo do logotipo ou navegue até o arquivo do logotipo, em seguida, clique no botão “Carregar”.</p>
 
-    <p>To add or change <a href="#authorize">authorisations</a>, <a href="collection-admin.html#submitters">submitters</a> or collection administrators click on the appropriate buttons to create/edit groups and their actions.</p>
+    <p>Para adicionar ou alterar as <a href="#authorize">autorizações</a>, os <a href="collection-admin.html#submitters">depositantes</a> ou administradores de coleção, clicar nos botões respectivos para criar/editar grupos e suas ações.</p>
 
-    <p>To edit the workflow groups, select the workflow step whose group you want to create or change and follow the <a href="collection-admin.html#groupeditor">group edit</a> process</p>
+    <p>Para editar os fluxos de trabalho de grupos, selecione a etapa do fluxo de trabalho para o grupo que deseja criar ou alterar e siga o processo  <a href="collection-admin.html#groupeditor">editar grupo</a> process</p>
 
-    <p>Click on the 'Item Template' button to display the <a href="#wizard_default">default item metadata page</a> where you can set default values for metadata fields for all items added to the collection.</p>
+    <p>Clique no botão 'Template do Item' para exibir a <a href="#wizard_default">página de metadados padrão do item</a>  onde você pode definir os valores padrão para os campos de metadados para todos os itens adicionados à coleção.</p>
 
     <h3><a name="epeople"></a>E-people</h3>
 
