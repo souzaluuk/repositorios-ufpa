@@ -42,9 +42,9 @@
          <dc-element>subject</dc-element>
          <dc-qualifier>vcps</dc-qualifier>
          <repeatable>true</repeatable>
-         <label>Vocabulário controlado</label>
+         <label>Descritor</label>
          <input-type>onebox</input-type>
-         <hint>Entre com o(s) termo(s) do Vocabulário Controlado</hint>
+         <hint>Entre com o(s) termo(s) do descritor</hint>
          <required></required>
          <vocabulary>vcps</vocabulary>
        </field>
@@ -170,9 +170,9 @@
          <dc-element>description</dc-element>
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Descrição do recurso</label>
+         <label>Nota</label>
          <input-type>textarea</input-type>
-         <hint>Entre com a descrição do recurso.</hint>
+         <hint>Entre com um texto de nota.</hint>
          <required></required>
        </field>
 
@@ -230,7 +230,7 @@
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Editor(a)</label>
-	 <type-bind>Anais de evento, Apostila, Discurso, Folhetos, Guia e Manual, Livro, Capítulo de livro, Plano Nacional, Relatório, Texto-base</type-bind> -->
+	 <type-bind>Anais de evento, Artigo de periódico, Ata de reunião, Ato normativo, Capítulo de livro, Carta, Cartilha, Discurso, Entrevista, Exposição de Motivos, Folder, Folheto, Guia e Manual, Livro, Moção, Plano Nacional, Relatório, Recomendação, Resolução e Deliberação, Revista, Texto-base, Texto instrucional, Trabalho acadêmico, Trabalho em evento</type-bind>
          <input-type>onebox</input-type>
          <hint>Entre com o(a) editor(a).</hint>
          <required></required>
@@ -431,11 +431,21 @@
        <stored-value>source</stored-value>
      </pair>
    </value-pairs>
+   
+    <type-bind>Anais de evento, Artigo de periódico, Ata de reunião, Ato normativo, 
+      Capítulo de livro, Carta, Cartilha, Discurso, Entrevista, Exposição de Motivos, Folder, Folheto, Guia e Manual, 
+      Livro, Moção, Plano Nacional, Relatório, Recomendação, Resolução e Deliberação, Revista, Texto-base, Texto instrucional, 
+      Trabalho acadêmico, Trabalho em evento</type-bind>
+        
 
    <value-pairs value-pairs-name="common_types" dc-term="type">
      <pair>
        <displayed-value>Anais de evento</displayed-value>
        <stored-value>Anais de evento</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Apresentação</displayed-value>
+       <stored-value>Apresentação</stored-value>
      </pair>
      <pair>
        <displayed-value>Artigo de periódico</displayed-value>
@@ -450,34 +460,38 @@
        <stored-value>Ato normativo</stored-value>
      </pair>
      <pair>
-       <displayed-value>Apresentação</displayed-value>
-       <stored-value>Apresentação</stored-value>
+       <displayed-value>Capítulo de livro</displayed-value>
+       <stored-value>Capítulo de livro</stored-value>
      </pair>
      <pair>
-       <displayed-value>Folder</displayed-value>
-       <stored-value>Folder</stored-value>
-     </pair>
-     <pair>
-       <displayed-value>Moção</displayed-value>
-       <stored-value>Moção</stored-value>
+       <displayed-value>Carta</displayed-value>
+       <stored-value>Carta</stored-value>
      </pair>
      <pair>
        <displayed-value>Cartilha</displayed-value>
        <stored-value>Cartilha</stored-value>
      </pair>
      <pair>
-       <displayed-value>Texto instrucional</displayed-value>
-       <stored-value>Texto instrucional</stored-value>
-     </pair>
-     <pair>
        <displayed-value>Discurso</displayed-value>
        <stored-value>Discurso</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Entrevista</displayed-value>
+       <stored-value>Entrevista</stored-value>
      </pair>
      <pair>
        <displayed-value>Exposição de Motivos</displayed-value>
        <stored-value>Exposição de Motivos</stored-value>
      </pair>
      <pair>
+       <displayed-value>Folder</displayed-value>
+       <stored-value>Folder</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Foto</displayed-value>
+       <stored-value>Foto</stored-value>
+     </pair>
+      <pair>
        <displayed-value>Guia e Manual</displayed-value>
        <stored-value>Guia e Manual</stored-value>
      </pair>
@@ -486,8 +500,8 @@
        <stored-value>Livro</stored-value>
      </pair>
      <pair>
-       <displayed-value>Capítulo de livro</displayed-value>
-       <stored-value>Capítulo de livro</stored-value>
+       <displayed-value>Moção</displayed-value>
+       <stored-value>Moção</stored-value>
      </pair>
      <pair>
        <displayed-value>Plano Nacional</displayed-value>
@@ -510,6 +524,10 @@
        <stored-value>Texto-base</stored-value>
      </pair>
      <pair>
+       <displayed-value>Texto instrucional</displayed-value>
+       <stored-value>Texto instrucional</stored-value>
+     </pair>
+     <pair>
        <displayed-value>Trabalho acadêmico</displayed-value>
        <stored-value>Trabalho acadêmico</stored-value>
      </pair>
@@ -520,10 +538,6 @@
      <pair>
        <displayed-value>Vídeo</displayed-value>
        <stored-value>Vídeo</stored-value>
-     </pair>
-	 <pair>
-       <displayed-value>Foto</displayed-value>
-       <stored-value>Foto</stored-value>
      </pair>
    </value-pairs>
 
