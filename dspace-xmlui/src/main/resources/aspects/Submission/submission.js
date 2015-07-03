@@ -362,7 +362,7 @@ function submissionControl(collectionHandle, workspaceID, initStepAndPage)
         	{
         		var contextPath = cocoon.request.getContextPath();
         		cocoon.redirectTo(contextPath+"/submissions",true);
-        		cocoon.exit();
+        		coocon.exit();
         	}
         	else if (!inWorkflow)
         	{

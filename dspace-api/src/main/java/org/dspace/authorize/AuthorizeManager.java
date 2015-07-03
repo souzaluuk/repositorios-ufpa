@@ -837,7 +837,7 @@ public class AuthorizeManager
             throws SQLException
     {
         DatabaseManager.updateQuery(c, "DELETE FROM resourcepolicy WHERE "
-                + "resource_type_id= ? AND resource_id= ? AND (rptype <> ? OR rptype IS NULL)",
+                + "resource_type_id= ? AND resource_id= ? AND rptype <> ? ",
                 o.getType(), o.getID(), type);
     }
 
