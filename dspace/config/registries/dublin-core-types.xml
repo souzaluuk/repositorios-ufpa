@@ -453,6 +453,7 @@
   </dc-type>
 
   <!-- Novo Identifier -->
+  <dc-type>
     <schema>dc</schema>
     <element>identifier</element>
     <qualifier>doi</qualifier>
