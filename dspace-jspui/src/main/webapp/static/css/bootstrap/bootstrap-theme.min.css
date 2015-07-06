@@ -2717,6 +2717,43 @@ select[multiple].input-lg {
     padding-top: 9px;
   }
 }
+
+.css3button {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #434141;
+	padding: 8px 12px;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#d3d3d3);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffffff),
+		to(#d3d3d3));
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	border: 1px solid #8a8989;
+	-moz-box-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		inset 0px 0px 0px rgba(255,000,217,0);
+	-webkit-box-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		inset 0px 0px 0px rgba(255,000,217,0);
+	box-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		inset 0px 0px 0px rgba(255,000,217,0);
+	text-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		0px 0px 0px rgba(255,255,255,0);
+
+
+}
+
+
+
 .btn {
   display: inline-block;
   margin-bottom: 0;

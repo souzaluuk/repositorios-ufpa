@@ -146,7 +146,7 @@
 	<form method="get" class="btn-group" action="<%= request.getContextPath() %>/handle/<%= collection.getHandle() %>/browse">
 		<input type="hidden" name="type" value="<%= bis[i].getName() %>"/>
 		<%-- <input type="hidden" name="collection" value="<%= collection.getHandle() %>" /> --%>
-		<input type="submit" class="btn btn-default" name="submit_browse" value="<fmt:message key="<%= key %>"/>"/>
+		<input type="submit" class="css3button btn-default" name="submit_browse" value="<fmt:message key="<%=key%>"/>"/>
 	</form>
 <%	
 	}
@@ -202,10 +202,6 @@
     }
 %>
         </form>
-
-<div class="row">
-	<%@ include file="discovery/static-tagcloud-facet.jsp" %>
-</div>
 
 <% if (show_items)
    {
@@ -325,35 +321,35 @@
                   <input type="hidden" name="collection_id" value="<%= collection.getID() %>" />
                   <input type="hidden" name="community_id" value="<%= community.getID() %>" />
                   <input type="hidden" name="action" value="<%= EditCommunitiesServlet.START_EDIT_COLLECTION %>" />
-                  <input class="btn btn-default col-md-12" type="submit" value="<fmt:message key="jsp.general.edit.button"/>" />
+                  <input class="css3button btn-default col-md-12" type="submit" value="<fmt:message key="jsp.general.edit.button"/>" />
                 </form>
 <% } %>
 
 <% if( admin_button ) { %>
                  <form method="post" action="<%=request.getContextPath()%>/tools/itemmap">
                   <input type="hidden" name="cid" value="<%= collection.getID() %>" />
-				  <input class="btn btn-default col-md-12" type="submit" value="<fmt:message key="jsp.collection-home.item.button"/>" />                  
+		  <input class="css3button btn-default col-md-12" type="submit" value="<fmt:message key="jsp.collection-home.item.button"/>" />                  
                 </form>
 <% if(submitters != null) { %>
 		      <form method="get" action="<%=request.getContextPath()%>/tools/group-edit">
 		        <input type="hidden" name="group_id" value="<%=submitters.getID()%>" />
-		        <input class="btn btn-default col-md-12" type="submit" name="submit_edit" value="<fmt:message key="jsp.collection-home.editsub.button"/>" />
+		        <input class="css3button btn-default col-md-12" type="submit" name="submit_edit" value="<fmt:message key="jsp.collection-home.editsub.button"/>" />
 		      </form>
 <% } %>
 <% if( editor_button || admin_button) { %>
                 <form method="post" action="<%=request.getContextPath()%>/mydspace">
                   <input type="hidden" name="collection_id" value="<%= collection.getID() %>" />
                   <input type="hidden" name="step" value="<%= MyDSpaceServlet.REQUEST_EXPORT_ARCHIVE %>" />
-                  <input class="btn btn-default col-md-12" type="submit" value="<fmt:message key="jsp.mydspace.request.export.collection"/>" />
+                  <input class="css3button btn-default col-md-12" type="submit" value="<fmt:message key="jsp.mydspace.request.export.collection"/>" />
                 </form>
                <form method="post" action="<%=request.getContextPath()%>/mydspace">
                  <input type="hidden" name="collection_id" value="<%= collection.getID() %>" />
                  <input type="hidden" name="step" value="<%= MyDSpaceServlet.REQUEST_MIGRATE_ARCHIVE %>" />
-                 <input class="btn btn-default col-md-12" type="submit" value="<fmt:message key="jsp.mydspace.request.export.migratecollection"/>" />
+                 <input class="css3button btn-default col-md-12" type="submit" value="<fmt:message key="jsp.mydspace.request.export.migratecollection"/>" />
                </form>
                <form method="post" action="<%=request.getContextPath()%>/dspace-admin/metadataexport">
                  <input type="hidden" name="handle" value="<%= collection.getHandle() %>" />
-                 <input class="btn btn-default col-md-12" type="submit" value="<fmt:message key="jsp.general.metadataexport.button"/>" />
+                 <input class="css3button btn-default col-md-12" type="submit" value="<fmt:message key="jsp.general.metadataexport.button"/>" />
                </form>
                </div>
                </div>
@@ -384,8 +380,8 @@
 			%><p class="recentItem"><a href="<%= request.getContextPath() %>/handle/<%= items[i].getHandle() %>"><%= displayTitle %></a></p><%
 		}
 %>
-    <p>&nbsp;</p>
-<%      } %>
+
+<% } %>
 
     <%= sidebar %>
 

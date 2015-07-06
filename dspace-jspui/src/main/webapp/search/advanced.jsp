@@ -58,8 +58,8 @@
 	// backward compatibility
 	if (searchIndices.size() == 0)
 	{
-	    searchIndices.add("ANY");
-	    searchIndices.add("author");
+	searchIndices.add("ANY");
+	searchIndices.add("author");
         searchIndices.add("title");
         searchIndices.add("keyword");
         searchIndices.add("abstract");

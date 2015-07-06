@@ -461,7 +461,7 @@ else if( qResults != null)
 
 %>
 <hr/>
-<div class="discovery-result-pagination row container">
+<div class="discovery-result-pagination row">
 <%
 	long lastHint = qResults.getStart()+qResults.getMaxResults() <= qResults.getTotalSearchResults()?
 	        qResults.getStart()+qResults.getMaxResults():qResults.getTotalSearchResults();
@@ -530,7 +530,7 @@ else if( qResults != null)
 	</ul>
 <!-- give a content to the div -->
 </div>
-<div class="discovery-result-results">
+<div class="discovery-result-results row">
 <% if (communities.length > 0 ) { %>
     <div class="panel panel-info">
     <div class="panel-heading"><fmt:message key="jsp.search.results.comhits"/></div>
