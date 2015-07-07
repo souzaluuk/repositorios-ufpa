@@ -218,12 +218,9 @@ dc.audience.educationlevel
          <repeatable>false</repeatable>
          <label>Primeiro orientador:</label>
          <input-type>name</input-type>
-         <hint>&lt;div class="alert alert-info"&gt;Descrição do &lt;strong&gt;PRIMEIRO ORIENTADOR&lt;/strong&gt;
-		       &lt;a href="help/submit-help.html#id-orientador" style="float:right" tooltiped="" &gt;Exemplos&lt;/a&gt;
-			   &lt;/div&gt;
+         <hint>&lt;div class="alert alert-info"&gt;Descrição do &lt;strong&gt;PRIMEIRO ORIENTADOR&lt;/strong&gt;&lt;/div&gt;
 		       &lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe o nome do primeiro orientador, conforme o formato de citação.</hint>
-         <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Informe o nome do PRIMEIRO ORIENTADOR, conforme o formato de citação.&lt;/font&gt; 
-		           &lt;a href="help/submit-help.html#id-orientador" style="float:right;color:black;" tooltiped="" &gt;Exemplos&lt;/a&gt;</required>
+         <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Informe o nome do PRIMEIRO ORIENTADOR, conforme o formato de citação.&lt;/font&gt;</required>
        </field>
 
 	    <field>
@@ -255,9 +252,7 @@ dc.audience.educationlevel
          <repeatable>false</repeatable>
          <label>Segundo orientador:</label>
          <input-type>name</input-type>
-         <hint>&lt;div class="alert alert-info"&gt;Descrição do &lt;strong&gt;SEGUNDO ORIENTADOR&lt;/strong&gt;
-		       &lt;a href="help/submit-help.html#id-orientador" style="float:right" tooltiped="" &gt;Exemplos&lt;/a&gt;
-			   &lt;/div&gt;
+         <hint>&lt;div class="alert alert-info"&gt;Descrição do &lt;strong&gt;SEGUNDO ORIENTADOR&lt;/strong&gt;&lt;/div&gt;
 		       &lt;font color="blue"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o nome do segundo orientador, conforme o formato de citação.</hint>
          <required></required>
         </field>
