@@ -535,7 +535,7 @@
   <dc-type>
 	<schema>dc</schema>
     <element>description</element>
-    <qualifier>Resumo</qualifier>
+    <qualifier>resumo</qualifier>
     <scope_note></scope_note>
   </dc-type>
 
@@ -577,7 +577,7 @@
     <scope_note>Uniform Resource Identifier pointing to description of
     this item.</scope_note>
   </dc-type>
-
+  
   <!-- Used by system: do not remove -->
   <dc-type>
 	<schema>dc</schema>
@@ -753,6 +753,14 @@
     <qualifier>uri</qualifier>
     <scope_note>References Uniform Resource Identifier for related item.</scope_note>
   </dc-type>
+  
+  <dc-type>
+	<schema>dc</schema>
+    <element>relation</element>
+    <qualifier>references</qualifier>
+    <scope_note></scope_note>
+  </dc-type>
+
 
   <dc-type>
 	<schema>dc</schema>
