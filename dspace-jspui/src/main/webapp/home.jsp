@@ -64,7 +64,7 @@
 						
 			<div id="logo-deposita" class="text-center">
 				<a  id="link-logo-deposita" href="<%= request.getContextPath() %>/community-list">
-					<img src="<%= request.getContextPath() %>/image/logo2.png" usemap="#mapa-brasil">		
+					<img src="<%= request.getContextPath() %>/image/logo.gif" usemap="#mapa-brasil">		
 				</a>
 			</div>
 			
