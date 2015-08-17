@@ -535,7 +535,7 @@
   <dc-type>
 	<schema>dc</schema>
     <element>description</element>
-    <qualifier>Resumo</qualifier>
+    <qualifier>resumo</qualifier>
     <scope_note></scope_note>
   </dc-type>
 
