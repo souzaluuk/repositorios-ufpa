@@ -296,10 +296,9 @@
 		 
 		<div class="container">
 		
-			<a class="btn btn-primary" href="<%= request.getContextPath() + "/handle/" + request.getAttribute("pageHandle") %>">
-				<fmt:message key="jsp.statistics.button.return"></fmt:message>
-			</a>
-		
+			<a class="btn btn-primary" href="<%= request.getContextPath() %>/">
+				<fmt:message key="jsp.statistics.button.return"/>
+			</a>		
 		</div>
 		
 		<input type="hidden" id="collor0" value="#DF0101">
