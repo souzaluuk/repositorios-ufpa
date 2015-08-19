@@ -217,6 +217,7 @@ dc.audience.educationlevel
          <dc-qualifier>advisor1</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Primeiro orientador:</label>
+		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
          <input-type>name</input-type>
          <hint>&lt;div class="alert alert-info"&gt;Descrição do &lt;strong&gt;PRIMEIRO ORIENTADOR&lt;/strong&gt;&lt;/div&gt;
 		       &lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe o nome do primeiro orientador, conforme o formato de citação.</hint>
@@ -229,7 +230,8 @@ dc.audience.educationlevel
          <dc-qualifier>advisor1Lattes</dc-qualifier>
          <repeatable>false</repeatable>
          <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do primeiro orientador:</label>
-         <input-type>onebox</input-type>
+		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a URL do currículo lattes do primeiro orientador.</hint>
          <required></required>
        </field>
@@ -240,6 +242,7 @@ dc.audience.educationlevel
          <dc-qualifier>advisor1ID</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Identificador único do primeiro orientador:</label>
+		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o identificador único do primeiro orientador(CPF, ID de autor privativa da instituição ou passaporte).</hint>
          <required></required>
@@ -251,9 +254,10 @@ dc.audience.educationlevel
          <dc-qualifier>advisor2</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Segundo orientador:</label>
+		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
          <input-type>name</input-type>
          <hint>&lt;div class="alert alert-info"&gt;Descrição do &lt;strong&gt;SEGUNDO ORIENTADOR&lt;/strong&gt;&lt;/div&gt;
-		       &lt;font color="blue"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o nome do segundo orientador, conforme o formato de citação.</hint>
+		       &lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o nome do segundo orientador, conforme o formato de citação.</hint>
          <required></required>
         </field>
 
@@ -263,7 +267,8 @@ dc.audience.educationlevel
          <dc-qualifier>advisor2Lattes</dc-qualifier>
          <repeatable>false</repeatable>
          <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do orientador:</label>
-         <input-type>onebox</input-type>
+		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a URL do currículo lattes do orientador.</hint>
          <required></required>
        </field>
@@ -274,6 +279,7 @@ dc.audience.educationlevel
          <dc-qualifier>advisor2ID</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Identificador único do orientador:</label>
+		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o identificador único do orientador(CPF, ID de autor privativa da instituição ou passaporte).</hint>
          <required></required>
@@ -761,7 +767,7 @@ dc.audience.educationlevel
          <repeatable>true</repeatable>
          <label>Faculdade, Instituto ou Departamento:</label>
 		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
-         <input-type>onebox</input-type>
+          <input-type value-pairs-name="common_department">dropdown</input-type> 
          <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Nome, por extenso, da unidade acadêmica: faculdade, escola, instituto, departamento ou estrutura equivalente.</hint>
          <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Nome, por extenso, da unidade acadêmica: faculdade, escola, instituto, departamento ou estrutura equivalente.&lt;/font&gt;</required>
        </field>
@@ -774,7 +780,7 @@ dc.audience.educationlevel
          <repeatable>true</repeatable>
          <label>Nome(s) do(s) programa(s) de pós-graduação por extenso:</label>
 		 <type-bind>doctoralThesis, mastherThesis</type-bind>
-         <input-type>onebox</input-type>
+         <input-type value-pairs-name="common_program">dropdown</input-type> 
          <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Nome(s) do(s) programa(s) de pós-graduação por extenso.</hint>
          <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Nome(s) do(s) programa(s) de pós-graduação por extenso.&lt;/font&gt;</required>
        </field>
@@ -911,11 +917,10 @@ dc.audience.educationlevel
          <repeatable>true</repeatable>
          <label>Agência(s) de &lt;br&gt; fomento:</label>
 		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
-         <input-type>onebox</input-type>
-         <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Agência(s) de fomento que auxiliou(ram) o pesquisador.</hint>
+         <input-type value-pairs-name="common_sporsorship">dropdown</input-type> 
+		 <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Agência(s) de fomento que auxiliou(ram) o pesquisador.</hint>
          <required></required>
        </field>
-	   
       
 	   <field>
          <dc-schema>dc</dc-schema>
@@ -994,11 +999,11 @@ dc.audience.educationlevel
 
     <value-pairs value-pairs-name="common_types" dc-term="type">
 	 <pair>
-       <displayed-value>Artigos publicados em periódicos</displayed-value>
+       <displayed-value>Artigo publicado em periódico</displayed-value>
        <stored-value>article</stored-value>
      </pair>
 	 <pair>
-       <displayed-value>Trabalhos apresentados em envetos acadêmicos</displayed-value>
+       <displayed-value>Trabalho apresentado em enveto acadêmico</displayed-value>
        <stored-value>conferenceObject</stored-value>
      </pair>
      <pair>
@@ -1026,11 +1031,7 @@ dc.audience.educationlevel
        <stored-value>report</stored-value>
      </pair>
 	 <pair>
-       <displayed-value>Objetos de aprendizagem</displayed-value>
-       <stored-value>other</stored-value>
-     </pair>
-	 <pair>
-       <displayed-value>Dados científicos</displayed-value>
+       <displayed-value>Outro tipo de documento</displayed-value>
        <stored-value>other</stored-value>
      </pair>
    </value-pairs>
@@ -1146,6 +1147,41 @@ dc.audience.educationlevel
        <stored-value>IBICT</stored-value>
      </pair>
    </value-pairs>
+   
+   <value-pairs value-pairs-name="common_department" dc-term="department">
+     <pair>
+       <displayed-value>Departamento 1</displayed-value>
+       <stored-value>Departamento 1</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Departamento 2</displayed-value>
+       <stored-value>Departamento 2</stored-value>
+     </pair>
+   </value-pairs>
+   
+   
+   <value-pairs value-pairs-name="common_program" dc-term="program">
+     <pair>
+       <displayed-value>PPG1</displayed-value>
+       <stored-value>PPG1</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>PPG2</displayed-value>
+       <stored-value>PPG2</stored-value>
+     </pair>
+   </value-pairs>
+   
+  <value-pairs value-pairs-name="common_sporsorship" dc-term="program">
+     <pair>
+       <displayed-value>Agência 1</displayed-value>
+       <stored-value>Agência 1</stored-value>
+     </pair>
+	 <pair>
+       <displayed-value>Agência 2</displayed-value>
+       <stored-value>Agência 2</stored-value>
+     </pair>
+   </value-pairs>
+   
    
    
 
