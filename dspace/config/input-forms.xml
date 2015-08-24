@@ -1012,7 +1012,7 @@ dc.audience.educationlevel
      </pair>
      <pair>
        <displayed-value>Dissertação</displayed-value>
-       <stored-value>mastherThesis</stored-value>
+       <stored-value>masterThesis</stored-value>
      </pair>
 	 <pair>
        <displayed-value>Trabalho de conclusão de curso</displayed-value>
