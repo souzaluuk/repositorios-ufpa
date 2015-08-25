@@ -779,7 +779,7 @@ dc.audience.educationlevel
          <dc-schema>dc</dc-schema>
          <dc-element>publisher</dc-element>
          <dc-qualifier>program</dc-qualifier>
-         <repeatable>true</repeatable>
+         <repeatable>false</repeatable>
          <label>Nome(s) do(s) programa(s) de pós-graduação por extenso:</label>
 		 <type-bind>doctoralThesis, mastherThesis</type-bind>
          <input-type value-pairs-name="common_program">dropdown</input-type> 
