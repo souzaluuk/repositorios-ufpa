@@ -193,8 +193,9 @@ dc.audience.educationlevel
          <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do autor:</label>
 		  <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
          <input-type>onebox</input-type>
-         <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a URL do currículo lattes do autor.</hint>
-         <required></required>
+         <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe a URL do currículo lattes do autor.</hint>
+         <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Informe a URL do currículo lattes do autor.&lt;/font&gt;
+		           </required>
        </field>
 	   
 	    <field>
@@ -232,8 +233,9 @@ dc.audience.educationlevel
          <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do primeiro orientador:</label>
 		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
 		 <input-type>onebox</input-type>
-         <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a URL do currículo lattes do primeiro orientador.</hint>
-         <required></required>
+         <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe a URL do currículo lattes do primeiro orientador.</hint>
+        <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Informe a URL do currículo lattes do primeiro orientador.&lt;/font&gt;
+		           </required>
        </field>
 	   
 	   <field>
