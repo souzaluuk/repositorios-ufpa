@@ -132,7 +132,7 @@ dc.audience.educationlevel
          <dc-qualifier>issued</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Data da defesa:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>date</input-type>
          <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe a data de defesa do documento descrito, ou seja, a data de defesa da tese ou dissertação. </hint>
          <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Informe a data de defesa do documento descrito, ou seja, a data de defesa da tese ou dissertação. &lt;/font&gt;</required>
@@ -144,7 +144,7 @@ dc.audience.educationlevel
          <dc-qualifier>issued</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Data da publicação:</label>
-		 <type-bind>article, conferenceObject, book, bookPart, report, other</type-bind>
+		 <type-bind>Artigo de Periódico, Artigo de Evento, Livro, Capítulo de Livro, Relatório de Pesquisa, Outro</type-bind>
          <input-type>date</input-type>
          <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe a data da publicação do documento descrito. </hint>
          <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Informe a data da publicação do documento descrito. &lt;/font&gt;</required>
@@ -156,7 +156,7 @@ dc.audience.educationlevel
          <dc-qualifier></dc-qualifier>
          <repeatable>true</repeatable>
          <label>Autor(es):</label>
-		 <type-bind>article, conferenceObject, book, bookPart, report, other</type-bind>
+		 <type-bind>Artigo de Periódico, Artigo de Evento, Livro, Capítulo de Livro, Relatório de Pesquisa, Outro</type-bind>
          <input-type>name</input-type>
          <hint>&lt;div class="alert alert-info"&gt;
 		 Descrição do &lt;strong&gt;AUTOR&lt;/strong&gt;
@@ -175,7 +175,7 @@ dc.audience.educationlevel
          <dc-qualifier></dc-qualifier>
          <repeatable>false</repeatable>
          <label>Autor:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>name</input-type>
          <hint>&lt;div class="alert alert-info"&gt;
 		 Descrição do &lt;strong&gt;AUTOR&lt;/strong&gt;
@@ -191,7 +191,7 @@ dc.audience.educationlevel
          <dc-qualifier>Lattes</dc-qualifier>
          <repeatable>false</repeatable>
          <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do autor:</label>
-		  <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		  <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe a URL do currículo lattes do autor.</hint>
          <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Informe a URL do currículo lattes do autor.&lt;/font&gt;
@@ -204,7 +204,7 @@ dc.audience.educationlevel
          <dc-qualifier>ID</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Identificador único do autor:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o identificador único do autor (CPF, ID de autor privativa da instituição ou passaporte).</hint>
          <required></required>
@@ -218,7 +218,7 @@ dc.audience.educationlevel
          <dc-qualifier>advisor1</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Primeiro orientador:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>name</input-type>
          <hint>&lt;div class="alert alert-info"&gt;Descrição do &lt;strong&gt;PRIMEIRO ORIENTADOR&lt;/strong&gt;&lt;/div&gt;
 		       &lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe o nome do primeiro orientador, conforme o formato de citação.</hint>
@@ -231,7 +231,7 @@ dc.audience.educationlevel
          <dc-qualifier>advisor1Lattes</dc-qualifier>
          <repeatable>false</repeatable>
          <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do primeiro orientador:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
 		 <input-type>onebox</input-type>
          <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe a URL do currículo lattes do primeiro orientador.</hint>
         <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Informe a URL do currículo lattes do primeiro orientador.&lt;/font&gt;
@@ -244,7 +244,7 @@ dc.audience.educationlevel
          <dc-qualifier>advisor1ID</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Identificador único do primeiro orientador:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o identificador único do primeiro orientador(CPF, ID de autor privativa da instituição ou passaporte).</hint>
          <required></required>
@@ -256,7 +256,7 @@ dc.audience.educationlevel
          <dc-qualifier>advisor2</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Segundo orientador:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>name</input-type>
          <hint>&lt;div class="alert alert-info"&gt;Descrição do &lt;strong&gt;SEGUNDO ORIENTADOR&lt;/strong&gt;&lt;/div&gt;
 		       &lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o nome do segundo orientador, conforme o formato de citação.</hint>
@@ -269,7 +269,7 @@ dc.audience.educationlevel
          <dc-qualifier>advisor2Lattes</dc-qualifier>
          <repeatable>false</repeatable>
          <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do orientador:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
 		 <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a URL do currículo lattes do orientador.</hint>
          <required></required>
@@ -281,7 +281,7 @@ dc.audience.educationlevel
          <dc-qualifier>advisor2ID</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Identificador único do orientador:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o identificador único do orientador(CPF, ID de autor privativa da instituição ou passaporte).</hint>
          <required></required>
@@ -295,7 +295,7 @@ dc.audience.educationlevel
          <dc-qualifier>advisor-co1</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Primeiro coorientador:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>name</input-type>
          <hint>&lt;div class="alert alert-info"&gt;Se houver, descrição do &lt;strong&gt;PRIMEIRO CO-ORIENTADOR&lt;/strong&gt;
 	           &lt;/div&gt;
@@ -309,7 +309,7 @@ dc.audience.educationlevel
          <dc-qualifier>advisor-co1Lattes</dc-qualifier>
          <repeatable>false</repeatable>
          <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do primeiro coorientador:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind> 
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind> 
 		 <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a URL do currículo lattes do primeiro coorientador.</hint>
          <required></required>
@@ -321,7 +321,7 @@ dc.audience.educationlevel
          <dc-qualifier>advisor-co1ID</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Identificador único do primeiro coorientador:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o identificador único do primeiro coorientador(CPF, ID de autor privativa da instituição ou passaporte).</hint>
          <required></required>
@@ -336,7 +336,7 @@ dc.audience.educationlevel
          <dc-qualifier>advisor-co2</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Segundo coorientador:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>name</input-type>
          <hint>&lt;div class="alert alert-info"&gt;Se houver, descrição do &lt;strong&gt;SEGUNDO CO-ORIENTADOR&lt;/strong&gt;
 	           &lt;/div&gt;
@@ -350,7 +350,7 @@ dc.audience.educationlevel
          <dc-qualifier>advisor-co2Lattes</dc-qualifier>
          <repeatable>false</repeatable>
          <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do segundo coorientador:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind> 
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind> 
 		<input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a URL do currículo lattes do segundo coorientador.</hint>
          <required></required>
@@ -362,7 +362,7 @@ dc.audience.educationlevel
          <dc-qualifier>advisor-co2ID</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Identificador único do segundo coorientador:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o identificador único do segundo coorientador (CPF, ID de autor privativa da instituição ou passaporte).</hint>
          <required></required>
@@ -380,7 +380,7 @@ dc.audience.educationlevel
          <dc-qualifier>referee1</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Primeiro membro da banca:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>name</input-type>
          <hint>&lt;div class="alert alert-info"&gt;Descrição do &lt;strong&gt;PRIMEIRO MEMBRO DA BANCA&lt;/strong&gt;
                &lt;/div&gt;
@@ -394,7 +394,7 @@ dc.audience.educationlevel
          <dc-qualifier>referee1Lattes</dc-qualifier>
          <repeatable>false</repeatable>
          <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do primeiro membro da banca:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a URL do currículo lattes do primeiro membro da banca.</hint>
          <required></required>
@@ -406,7 +406,7 @@ dc.audience.educationlevel
          <dc-qualifier>referee1ID</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Identificador único do primeiro membro da banca</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o identificador único do primeiro membro da banca(CPF, ID de autor privativa da instituição ou passaporte).</hint>
          <required></required>
@@ -421,7 +421,7 @@ dc.audience.educationlevel
          <dc-qualifier>referee2</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Segundo membro da banca:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>name</input-type>
          <hint>&lt;div class="alert alert-info"&gt;Se houver, descrição do &lt;strong&gt;SEGUNDO MEMBRO DA BANCA&lt;/strong&gt;
 		       &lt;/div&gt;
@@ -436,7 +436,7 @@ dc.audience.educationlevel
          <dc-qualifier>referee2Lattes</dc-qualifier>
          <repeatable>false</repeatable>
          <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do segundo membro da banca:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>onebox</input-type>
          <hint> &lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a URL do currículo lattes do segundo membro da banca.</hint>
          <required></required>
@@ -448,7 +448,7 @@ dc.audience.educationlevel
          <dc-qualifier>referee2ID</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Identificador único do segundo membro da banca</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o identificador único do segundo membro da banca(CPF, ID de autor privativa da instituição ou passaporte).</hint>
          <required></required>
@@ -462,7 +462,7 @@ dc.audience.educationlevel
          <dc-qualifier>referee3</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Terceiro membro da banca:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>name</input-type>
          <hint>&lt;div class="alert alert-info"&gt;Se houver, descrição do &lt;strong&gt;TERCEIRO MEMBRO DA BANCA&lt;/strong&gt;
 		       &lt;/div&gt;
@@ -476,7 +476,7 @@ dc.audience.educationlevel
          <dc-qualifier>referee3Lattes</dc-qualifier>
          <repeatable>false</repeatable>
          <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do terceiro membro da banca:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a URL do currículo lattes do terceiro membro da banca.</hint>
          <required></required>
@@ -488,7 +488,7 @@ dc.audience.educationlevel
          <dc-qualifier>referee3ID</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Identificador único do terceiro membro da banca</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o identificador único do terceiro membro da banca(CPF, ID de autor privativa da instituição ou passaporte).</hint>
          <required></required>
@@ -502,7 +502,7 @@ dc.audience.educationlevel
          <dc-qualifier>referee4</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Quarto membro da banca:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>name</input-type>
          <hint>&lt;div class="alert alert-info"&gt;Se houver, descrição do &lt;strong&gt;QUARTO MEMBRO DA BANCA&lt;/strong&gt;
 		       &lt;/div&gt;
@@ -516,7 +516,7 @@ dc.audience.educationlevel
          <dc-qualifier>referee4Lattes</dc-qualifier>
          <repeatable>false</repeatable>
          <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do quarto membro da banca:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a URL do currículo lattes do quarto membro da banca.</hint>
          <required></required>
@@ -528,7 +528,7 @@ dc.audience.educationlevel
          <dc-qualifier>referee4ID</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Identificador único do quarto quarto da banca</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o identificador único do quarto membro da banca(CPF, ID de autor privativa da instituição ou passaporte).</hint>
          <required></required>
@@ -542,7 +542,7 @@ dc.audience.educationlevel
          <dc-qualifier>referee5</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Quinto membro da banca:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>name</input-type>
          <hint>&lt;div class="alert alert-info"&gt;Se houver, descrição do &lt;strong&gt;QUINTO MEMBRO DA BANCA&lt;/strong&gt;
 		       &lt;/div&gt;
@@ -556,7 +556,7 @@ dc.audience.educationlevel
          <dc-qualifier>referee5Lattes</dc-qualifier>
          <repeatable>false</repeatable>
          <label>&lt;a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar" target="_blank" &gt;URL do Currículo Lattes&lt;/a&gt; do quinto  membro da banca:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a URL do currículo lattes do quinto  membro da banca.</hint>
          <required></required>
@@ -568,7 +568,7 @@ dc.audience.educationlevel
          <dc-qualifier>referee5ID</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Identificador único do quinto quarto da banca</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o identificador único do quinto membro da banca(CPF, ID de autor privativa da instituição ou passaporte).</hint>
          <required></required>
@@ -583,7 +583,7 @@ dc.audience.educationlevel
          <dc-qualifier>ispartof</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Título do periódico:</label>
-		 <type-bind>article</type-bind>
+		 <type-bind>Artigo de Periódico</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe o título do periódico. &lt;/font&gt;</hint>
          <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Informe o título do periódico.&lt;/font&gt;</required>
@@ -595,7 +595,7 @@ dc.audience.educationlevel
          <dc-qualifier>ispartof</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Título do evento:</label>
-		 <type-bind>conferenceObject</type-bind>
+		 <type-bind>Artigo de Evento</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe o título do evento. &lt;/font&gt;</hint>
          <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Informe o título do evento.&lt;/font&gt;</required>
@@ -607,7 +607,7 @@ dc.audience.educationlevel
          <dc-qualifier>ispartof</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Título da coleção:</label>
-		 <type-bind>book</type-bind>
+		 <type-bind>Livro</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o título da coleção. &lt;/font&gt;</hint>
          <required></required>
@@ -619,7 +619,7 @@ dc.audience.educationlevel
          <dc-qualifier>ispartof</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Título da pesquisa:</label>
-		 <type-bind>report</type-bind>
+		 <type-bind>Relatório de Pesquisa</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe o título da pesquisa. &lt;/font&gt;</hint>
          <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Informe o título da pesquisa.&lt;/font&gt;</required>
@@ -631,7 +631,7 @@ dc.audience.educationlevel
          <dc-qualifier>ispartof</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Título do livro:</label>
-		 <type-bind>bookpart</type-bind>
+		 <type-bind>Livropart</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe o título do livro. &lt;/font&gt;</hint>
          <required>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe o título do livro. &lt;/font&gt;</required>
@@ -644,7 +644,7 @@ dc.audience.educationlevel
          <dc-qualifier>volume</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Volume do periódico:</label>
-		 <type-bind>article</type-bind>
+		 <type-bind>Artigo de Periódico</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o volume do periódico.</hint>
          <required></required>
@@ -656,7 +656,7 @@ dc.audience.educationlevel
          <dc-qualifier>issue</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Número de edição do periódico:</label>
-		 <type-bind>article</type-bind>
+		 <type-bind>Artigo de Periódico</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o número de edição do periódico.</hint>
          <required></required>
@@ -668,7 +668,7 @@ dc.audience.educationlevel
          <dc-qualifier>issue</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Número de edição do evento:</label>
-		 <type-bind>conferenceObject</type-bind>
+		 <type-bind>Artigo de Evento</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe o número de edição do evento.</hint>
          <required>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Informe o número de edição do evento.</required>
@@ -680,7 +680,7 @@ dc.audience.educationlevel
          <dc-qualifier>issue</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Número do livro na coleção:</label>
-		 <type-bind>book</type-bind>
+		 <type-bind>Livro</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o número do livro na coleção.</hint>
          <required></required>
@@ -692,7 +692,7 @@ dc.audience.educationlevel
          <dc-qualifier>spage</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Página inicial:</label>
-		 <type-bind>article, bookPart</type-bind>
+		 <type-bind>Artigo de Periódico, Capítulo de Livro</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a página inicial.</hint>
          <required></required>
@@ -704,7 +704,7 @@ dc.audience.educationlevel
          <dc-qualifier>epage</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Página final:</label>
-		 <type-bind>article, bookPart</type-bind>
+		 <type-bind>Artigo de Periódico, Capítulo de Livro</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe a página final.</hint>
          <required></required>
@@ -716,7 +716,7 @@ dc.audience.educationlevel
          <dc-qualifier>educationlevel</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Nível educacional:</label>
-		 <type-bind>other</type-bind>
+		 <type-bind>Outro</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o nível educacional.</hint>
          <required></required>
@@ -728,7 +728,7 @@ dc.audience.educationlevel
          <dc-qualifier></dc-qualifier>
          <repeatable>true</repeatable>
          <label>Objetivo:</label>
-		 <type-bind>other</type-bind>
+		 <type-bind>Outro</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informar o objetivo. </hint>
          <required></required>
@@ -768,7 +768,7 @@ dc.audience.educationlevel
          <dc-qualifier>department</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Faculdade, Instituto ou Departamento:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
           <input-type value-pairs-name="common_department">dropdown</input-type> 
          <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Nome, por extenso, da unidade acadêmica: faculdade, escola, instituto, departamento ou estrutura equivalente.</hint>
          <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Nome, por extenso, da unidade acadêmica: faculdade, escola, instituto, departamento ou estrutura equivalente.&lt;/font&gt;</required>
@@ -781,7 +781,7 @@ dc.audience.educationlevel
          <dc-qualifier>program</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Nome do programa de pós-graduação por extenso:</label>
-		 <type-bind>doctoralThesis, mastherThesis</type-bind>
+		 <type-bind>Tese, Dissertação</type-bind>
          <input-type value-pairs-name="common_program">dropdown</input-type> 
          <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Nome(s) do(s) programa(s) de pós-graduação por extenso.</hint>
          <required>&lt;font color="red"&gt;&lt;strong&gt;CAMPO OBRIGATÓRIO:&lt;/strong&gt; Nome(s) do(s) programa(s) de pós-graduação por extenso.&lt;/font&gt;</required>
@@ -816,7 +816,7 @@ dc.audience.educationlevel
          <dc-qualifier>references</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Referências:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>textarea</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informes as referências citadas no documento. </hint>
          <required></required>
@@ -840,7 +840,7 @@ dc.audience.educationlevel
          <dc-qualifier>isbn</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Informe o ISBN:</label>
-		 <type-bind>book, bookPart</type-bind>
+		 <type-bind>Livro, Capítulo de Livro</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o ISBN.</hint>
          <required></required>
@@ -853,7 +853,7 @@ dc.audience.educationlevel
          <dc-qualifier>issn</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Informe o ISSN:</label>
-		 <type-bind>article, conferenceObject</type-bind>
+		 <type-bind>Artigo de Periódico, Artigo de Evento</type-bind>
          <input-type>onebox</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informe o ISSN.</hint>
          <required></required>
@@ -918,7 +918,7 @@ dc.audience.educationlevel
          <dc-qualifier>sponsorship</dc-qualifier>
          <repeatable>true</repeatable>
          <label>Agência(s) de &lt;br&gt; fomento:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type value-pairs-name="common_sporsorship">dropdown</input-type> 
 		 <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Agência(s) de fomento que auxiliou(ram) o pesquisador.</hint>
          <required></required>
@@ -930,7 +930,7 @@ dc.audience.educationlevel
          <dc-qualifier></dc-qualifier>
          <repeatable>true</repeatable>
          <label>Relação:</label>
-		 <type-bind>doctoralThesis, mastherThesis, bachelorThesis</type-bind>
+		 <type-bind>Tese, Dissertação, Trabalho de Conclusão de Curso</type-bind>
          <input-type>textarea</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Outros recursos utilizados para elaboração deste documento. </hint>
          <required></required>
@@ -942,7 +942,7 @@ dc.audience.educationlevel
          <dc-qualifier></dc-qualifier>
          <repeatable>true</repeatable>
          <label>Notas sobre o livro:</label>
-		 <type-bind>book</type-bind>
+		 <type-bind>Livro</type-bind>
          <input-type>textarea</input-type>
          <hint>&lt;font color="#449d44"&gt;CAMPO OPCIONAL: &lt;/font&gt; Informar o sumário do livro. </hint>
          <required></required>
@@ -1188,7 +1188,7 @@ dc.audience.educationlevel
    
 
    <!-- default language order: (from dspace 1.2.1)
-        "en_US", "en", "es", "de", "fr", "it", "ja", "zh", "other", ""
+        "en_US", "en", "es", "de", "fr", "it", "ja", "zh", "Outro", ""
      -->
    <value-pairs value-pairs-name="common_languages" dc-term="language">
      <pair>
