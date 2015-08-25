@@ -987,54 +987,54 @@ dc.audience.educationlevel
    <value-pairs value-pairs-name="common_rights" dc-term="rights">
      <pair>
        <displayed-value>Acesso Aberto</displayed-value>
-       <stored-value>openAccess</stored-value>
+       <stored-value>Acesso Aberto</stored-value>
      </pair>
      <pair>
        <displayed-value>Acesso Embargado</displayed-value>
-       <stored-value>embargoedAccess</stored-value>
+       <stored-value>Acesso Embargado</stored-value>
      </pair>
      <pair>
        <displayed-value>Acesso Restrito</displayed-value>
-       <stored-value>restrictAccess</stored-value>
+       <stored-value>Acesso Restrito</stored-value>
      </pair>
    </value-pairs>
 
     <value-pairs value-pairs-name="common_types" dc-term="type">
 	 <pair>
-       <displayed-value>Artigo publicado em periódico</displayed-value>
-       <stored-value>article</stored-value>
+       <displayed-value>Artigo de Periódico</displayed-value>
+       <stored-value>Artigo de Periódico</stored-value>
      </pair>
 	 <pair>
-       <displayed-value>Trabalho apresentado em enveto acadêmico</displayed-value>
-       <stored-value>conferenceObject</stored-value>
+       <displayed-value>Artigo de Evento</displayed-value>
+       <stored-value>Artigo de Evento</stored-value>
      </pair>
      <pair>
        <displayed-value>Tese</displayed-value>
-       <stored-value>doctoralThesis</stored-value>
+       <stored-value>Tese</stored-value>
      </pair>
      <pair>
        <displayed-value>Dissertação</displayed-value>
-       <stored-value>masterThesis</stored-value>
+       <stored-value>Dissertação</stored-value>
      </pair>
 	 <pair>
-       <displayed-value>Trabalho de conclusão de curso</displayed-value>
-       <stored-value>bachelorThesis</stored-value>
+       <displayed-value>Trabalho de Conclusão de Curso</displayed-value>
+       <stored-value>Trabalho de Conclusão de Curso</stored-value>
      </pair>
 	 <pair>
        <displayed-value>Livro</displayed-value>
-       <stored-value>book</stored-value>
+       <stored-value>Livro</stored-value>
      </pair>
 	 <pair>
-       <displayed-value>Capítulo de livro</displayed-value>
-       <stored-value>bookPart</stored-value>
+       <displayed-value>Capítulo de Livro</displayed-value>
+       <stored-value>Capítulo de Livro</stored-value>
      </pair>
 	 <pair>
-       <displayed-value>Relatório de pesquisa</displayed-value>
-       <stored-value>report</stored-value>
+       <displayed-value>Relatório de Pesquisa</displayed-value>
+       <stored-value>Relatório de Pesquisa</stored-value>
      </pair>
 	 <pair>
        <displayed-value>Outro tipo de documento</displayed-value>
-       <stored-value>other</stored-value>
+       <stored-value>Outro</stored-value>
      </pair>
    </value-pairs>
    
