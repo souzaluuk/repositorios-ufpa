@@ -780,7 +780,7 @@ dc.audience.educationlevel
          <dc-element>publisher</dc-element>
          <dc-qualifier>program</dc-qualifier>
          <repeatable>false</repeatable>
-         <label>Nome(s) do(s) programa(s) de pós-graduação por extenso:</label>
+         <label>Nome do programa de pós-graduação por extenso:</label>
 		 <type-bind>doctoralThesis, mastherThesis</type-bind>
          <input-type value-pairs-name="common_program">dropdown</input-type> 
          <hint>&lt;font color="red"&gt;CAMPO OBRIGATÓRIO: &lt;/font&gt; Nome(s) do(s) programa(s) de pós-graduação por extenso.</hint>
