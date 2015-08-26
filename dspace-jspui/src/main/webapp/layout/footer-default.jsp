@@ -41,7 +41,7 @@
              <footer class="navbar navbar-inverse navbar-bottom">
           
 
-	      <a target="_blank" href="<%= request.getContextPath() %>/feedback"><fmt:message key="jsp.layout.footer-default.feedback"/></a>		
+	     
              <div id="footer_feedback" class="pull-right">  
                           
                                 <img src="<%= request.getContextPath() %>/image/ibict-60.png">
