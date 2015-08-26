@@ -98,7 +98,6 @@
 				<ref bean="searchFilterAuthor" />
 				<ref bean="searchFilterAdvisor" />
 				<ref bean="searchFilterReferees" />
-				<ref bean="searchFilterContributor" />
 				<ref bean="searchFilterSubject" />
 				<ref bean="searchFilterCNPq" /> 
 				<ref bean="searchFilterPublisher" />
