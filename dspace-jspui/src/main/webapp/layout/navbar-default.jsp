@@ -114,6 +114,13 @@
           </li>
           <li class="<%= ( currentPage.endsWith( "/help" ) ? "active" : "" ) %>"><dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\") %>"><fmt:message key="jsp.layout.navbar-default.help"/></dspace:popup></li>
           <li><a target="_blank" href="<%= request.getContextPath() %>/feedback"><fmt:message key="jsp.layout.footer-default.feedback"/></a></li>		
+          <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><fmt:message key="jsp.layout.navbar-default.documents"/> <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+             	<li><a target="_blank" href="<%= request.getContextPath() %>/doc1.docx">Documento1</a></li>	
+             	<li><a target="_blank" href="<%= request.getContextPath() %>/doc2.docx">Documento2</a></li>
+             </ul>
+          </li>
        </ul>
 
  <% if (supportedLocales != null && supportedLocales.length > 1)
