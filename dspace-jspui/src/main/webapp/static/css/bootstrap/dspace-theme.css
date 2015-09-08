@@ -644,3 +644,23 @@ width: 20%;
 footer {
     z-index : -1 !important;
 }
+
+/**
+ * Statistics customization
+ */
+ .statsTable {
+ 	width: 100%;
+ }
+ 
+ .statsTable td,  .statsTable th  {
+ 	padding-left: 10px;
+ }
+ 
+ .stats-title {
+ 	padding-bottom: 25px;
+ } 
+ 
+.stats-item-title {
+	width: 20%;	
+}
+
