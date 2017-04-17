@@ -44,7 +44,7 @@
 	     
              <div id="footer_feedback" class="pull-right">  
                           
-                                <img src="<%= request.getContextPath() %>/image/ibict-60.png">
+                                <img width="120px"  src="<%= request.getContextPath() %>/image/ibict.jpeg">
 								
                                 </div>
 			</div>

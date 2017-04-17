@@ -15,6 +15,7 @@
   -    recent.submissions - RecetSubmissions
   --%>
 
+<%@page import="org.dspace.core.Utils"%>
 <%@page import="org.dspace.content.Bitstream"%>
 <%@ page contentType="text/html;charset=UTF-8" %>
 
@@ -42,7 +43,9 @@
 
     Locale sessionLocale = UIUtil.getSessionLocale(request);
     Config.set(request.getSession(), Config.FMT_LOCALE, sessionLocale);
-    String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html"));
+
+    /* String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html")); */
+    /* String sideNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-side.html")); */
 
     boolean feedEnabled = ConfigurationManager.getBooleanProperty("webui.feed.enable");
     String feedData = "NONE";
@@ -56,6 +59,12 @@
     RecentSubmissions submissions = (RecentSubmissions) request.getAttribute("recent.submissions");
 %>
 
+
+<%--
+	<div class="jumbotron">
+        <%= topNews %>
+	</div>
+--%>
 
 <dspace:layout locbar="nolink" titlekey="jsp.home.title" feedData="<%= feedData %>">
 

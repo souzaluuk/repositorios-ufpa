@@ -19,18 +19,16 @@
   -    isItem - boolean variable, returns true if the DSO is an Item 
   --%>
 
-<%@ page contentType="text/html;charset=UTF-8"%>
+<%@ page contentType="text/html;charset=UTF-8" %>
 
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 
-<%@ taglib uri="http://www.dspace.org/dspace-tags.tld" prefix="dspace"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://www.dspace.org/dspace-tags.tld" prefix="dspace" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <%@page import="org.dspace.app.webui.servlet.MyDSpaceServlet"%>
 
-<%
-	Boolean isItem = (Boolean) request.getAttribute("isItem");
-%>
+<% Boolean isItem = (Boolean)request.getAttribute("isItem"); %>
 
 
 <dspace:layout titlekey="jsp.statistics.title">
