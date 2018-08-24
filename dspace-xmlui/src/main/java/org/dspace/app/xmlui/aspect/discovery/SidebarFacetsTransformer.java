@@ -157,7 +157,7 @@ public class SidebarFacetsTransformer extends AbstractDSpaceTransformer implemen
         //If we are on a search page performing a search a query may be used
         String query = request.getParameter("query");
         if(query != null && !"".equals(query)){
-            // Do standard escaping of some characters in this user-entered query
+            // Escape any special characters in this user-entered query
             query = DiscoveryUIUtils.escapeQueryChars(query);
             queryArgs.setQuery(query);
         }
@@ -319,7 +319,7 @@ public class SidebarFacetsTransformer extends AbstractDSpaceTransformer implemen
         DiscoveryConfiguration discoveryConfiguration = SearchUtils.getDiscoveryConfiguration(scope);
         java.util.List<DiscoverySearchFilterFacet> facets = discoveryConfiguration.getSidebarFacets();
 
-        log.debug("facets for scope, " + scope + ": " + (facets != null ? facets.size() : null));
+        log.info("facets for scope, " + scope + ": " + (facets != null ? facets.size() : null));
 
 
 
