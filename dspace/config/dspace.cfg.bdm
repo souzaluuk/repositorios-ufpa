@@ -1170,10 +1170,11 @@ webui.browse.index.3 = advisor:metadata:dc.contributor.advisor1,dc.contributor.a
 webui.browse.index.4 = title:item:title
 webui.browse.index.5 = subject:metadata:dc.subject:text
 webui.browse.index.6 = cnpq:metadata:dc.subject.cnpq:text
-webui.browse.index.7 = department:metadata:dc.publisher.department:text
-webui.browse.index.8 = program:metadata:dc.publisher.program:text
-webui.browse.index.9 = type:metadata:dc.type:text
-webui.browse.index.10 = access:metadata:dc.rights:text
+webui.browse.index.7 = type:metadata:dc.type:text
+#webui.browse.index.7 = department:metadata:dc.publisher.department:text
+#webui.browse.index.8 = program:metadata:dc.publisher.program:text
+#webui.browse.index.9 = type:metadata:dc.type:text
+#webui.browse.index.10 = access:metadata:dc.rights:text
 #webui.browse.index.7 = dateaccessioned:item:dateaccessioned
 
 
@@ -1776,7 +1777,7 @@ upload.max = 536870912
 # should the stats be publicly available?  should be set to false if you only
 # want administrators to access the stats, or you do not intend to generate
 # any
-report.public = false
+report.public = true
 
 # directory where live reports are stored
 report.dir = ${dspace.dir}/reports/
@@ -1816,24 +1817,24 @@ report.dir = ${dspace.dir}/reports/
 #
 webui.itemdisplay.default = dc.type, \
 							dc.title, dc.title.alternative, \
-							dc.contributor.author, \
+							#dc.contributor.author, \
 							dc.creator, \
 							dc.contributor.advisor1, \
-							dc.contributor.advisor2, \
+							#dc.contributor.advisor2, \
 							dc.contributor.advisor-co1, \
-							dc.contributor.advisor-co2,  \
-							dc.contributor.referee1, \
-							dc.contributor.referee2, \
-							dc.contributor.referee3, \
-							dc.contributor.referee4, \
-							dc.contributor.referee5, \
-                            dc.description.resumo, dc.description.abstract, dc.subject, dc.subject.cnpq, \
-							dc.language,  dc.publisher.country, \
-							dc.publisher, dc.publisher.initials, dc.publisher.department, dc.publisher.program, \
-                            dc.identifier.citation, dc.rights, dc.rights.uri(link), \
-							dc.identifier.doi(link), dc.identifier.uri(link), \
-							dc.date.issued(date)
-                                                        
+							#dc.contributor.advisor-co2,  \
+							#dc.contributor.referee1, \
+							#dc.contributor.referee2, \
+							#dc.contributor.referee3, \
+							#dc.contributor.referee4, \
+							#dc.contributor.referee5, \
+							dc.date.issued(date), \
+							dc.identifier.citation, \
+                            dc.description.resumo, dc.description.abstract, dc.description.resume, \
+							#dc.language,  dc.publisher.country, \
+							#dc.publisher, dc.publisher.initials, dc.publisher.department, dc.publisher.program, \
+                            dc.subject, dc.rights, dc.source.uri, dc.source, dc.rights.uri
+							#dc.identifier.doi(link), dc.identifier.uri(link), \                           
 #
 # When using "resolver" in webui.itemdisplay to render identifiers as resolvable
 # links, the base URL is taken from <code>webui.resolver.<n>.baseurl</code>
@@ -2006,7 +2007,7 @@ webui.controlledvocabulary.enable = true
 # inside that snipet is your Google Analytics key usually found in this line:
 # _uacct = "UA-XXXXXXX-X"
 # Take this key (just the UA-XXXXXX-X part) and place it here in this parameter.
-# jspui.google.analytics.key=UA-XXXXXX-X
+jspui.google.analytics.key=UA-114230348-1
 
 #---------------------------------------------------------------#
 #--------------XMLUI SPECIFIC CONFIGURATIONS--------------------#
